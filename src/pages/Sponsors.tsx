@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 const sponsorsData = [
-    { name: "Greenstar", tier: "Special Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/green star.png", desc: "Official Special Sponsor.", url: "https://applicationsolutions.com.au/environmental-sustainable-design/green-star/" },
+    { name: "Greenstar", tier: "Special Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/green-star.png", desc: "Official Special Sponsor.", url: "https://applicationsolutions.com.au/environmental-sustainable-design/green-star/" },
     { name: "Gamistry", tier: "Events Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/gamistry.png", desc: "Powering the events.", url: "https://www.gameistry.in/" },
-    { name: "Think Music", tier: "Events & DJ Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/think music.jpg", desc: "Events & DJ Sponsor.", url: "https://www.thinkmusic.in/" },
+    { name: "Think Music", tier: "Events & DJ Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/think-music.jpg", desc: "Events & DJ Sponsor.", url: "https://www.thinkmusic.in/" },
     { name: "Xmold Polymers", tier: "Events Sponsor", logo: "https://cdn.svcehighways.in/assets/logos/xmold.png", desc: "Proud sponsor of Highways'26.", url: "https://xmoldpolymers.com/" }
 ];
 
