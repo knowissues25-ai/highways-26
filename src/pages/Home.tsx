@@ -1,8 +1,7 @@
-import { useEffect, lazy, Suspense } from 'react';
+import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-
-const Glimpses = lazy(() => import('./Glimpses'));
+import Glimpses from './Glimpses';
 
 const HighwaysLogo = 'https://cdn.svcehighways.in/assets/logos/highways-logo.webp';
 
@@ -47,6 +46,7 @@ const Home = () => {
                     loop
                     muted
                     playsInline
+                    preload="auto"
                     style={{
                         position: 'absolute',
                         top: '50%',
@@ -174,45 +174,72 @@ const Home = () => {
                                     }}
                                 >
                                     <div className="mystery-container" style={{ position: 'relative', width: '160px', height: '160px', margin: '0 auto 20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                        <motion.div
-                                            animate={{ rotate: 360 }}
-                                            transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                                            style={{
-                                                position: 'absolute',
-                                                width: '140px',
-                                                height: '140px',
-                                                borderRadius: '35px',
-                                                border: '2px dashed #ff4d4d',
-                                                opacity: 0.3
-                                            }}
-                                        />
-                                        <div style={{
-                                            width: '110px',
-                                            height: '110px',
-                                            background: 'rgba(255,77,77,0.1)',
-                                            borderRadius: '50%',
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            justifyContent: 'center',
-                                            fontSize: '3.5rem',
-                                            fontWeight: 900,
-                                            color: '#ff4d4d',
-                                            textShadow: '0 0 20px rgba(255, 77, 77, 0.5)',
-                                            zIndex: 1
-                                        }}>?</div>
+                                        {celeb.id === 1 ? (
+                                            <img src="https://cdn.svcehighways.in/celebrity/eternals%20psd%20FINAL.jpg" alt="Celebrity 1" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
+                                        ) : (
+                                            <>
+                                                <motion.div
+                                                    animate={{ rotate: 360 }}
+                                                    transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+                                                    style={{
+                                                        position: 'absolute',
+                                                        width: '140px',
+                                                        height: '140px',
+                                                        borderRadius: '35px',
+                                                        border: '2px dashed #ff4d4d',
+                                                        opacity: 0.3
+                                                    }}
+                                                />
+                                                <div style={{
+                                                    width: '110px',
+                                                    height: '110px',
+                                                    background: 'rgba(255,77,77,0.1)',
+                                                    borderRadius: '50%',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    justifyContent: 'center',
+                                                    fontSize: '3.5rem',
+                                                    fontWeight: 900,
+                                                    color: '#ff4d4d',
+                                                    textShadow: '0 0 20px rgba(255, 77, 77, 0.5)',
+                                                    zIndex: 1
+                                                }}>?</div>
+                                            </>
+                                        )}
                                     </div>
-                                    <span style={{ color: '#ff4d4d', fontSize: '0.75rem', fontWeight: 900, letterSpacing: '3px' }}>{celeb.type}</span>
-                                    <h3 style={{ fontSize: '1.6rem', fontWeight: 900, margin: '15px 0', color: 'white' }}>REVEALING SOON</h3>
-                                    <div style={{
-                                        marginTop: '20px',
-                                        background: '#ff4d4d',
-                                        color: 'white',
-                                        padding: '10px 20px',
-                                        borderRadius: '100px',
-                                        fontSize: '0.8rem',
-                                        fontWeight: 900,
-                                        letterSpacing: '1px'
-                                    }}>EXPECT THE UNEXPECTED</div>
+                                    <h3 style={{ fontSize: '1.6rem', fontWeight: 900, margin: '15px 0', color: 'white', minHeight: '2.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{celeb.id === 1 ? 'THE ETERNALS' : 'REVEALING SOON'}</h3>
+                                    {celeb.id === 1 ? (
+                                        <a 
+                                            href="https://www.instagram.com/reel/DWO0fRKE9wg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
+                                            target="_blank" 
+                                            rel="noopener noreferrer"
+                                            style={{
+                                                marginTop: '20px',
+                                                background: '#ff4d4d',
+                                                color: 'white',
+                                                padding: '10px 20px',
+                                                borderRadius: '100px',
+                                                fontSize: '0.8rem',
+                                                fontWeight: 900,
+                                                letterSpacing: '1px',
+                                                textDecoration: 'none',
+                                                display: 'inline-block'
+                                            }}
+                                        >
+                                            WATCH TRAILER
+                                        </a>
+                                    ) : (
+                                        <div style={{
+                                            marginTop: '20px',
+                                            background: '#ff4d4d',
+                                            color: 'white',
+                                            padding: '10px 20px',
+                                            borderRadius: '100px',
+                                            fontSize: '0.8rem',
+                                            fontWeight: 900,
+                                            letterSpacing: '1px'
+                                        }}>EXPECT THE UNEXPECTED</div>
+                                    )}
                                 </motion.div>
                             ))}
                         </div>
@@ -221,9 +248,7 @@ const Home = () => {
             </div>
 
             {/* GLIMPSES SECTION */}
-            <Suspense fallback={null}>
-                <Glimpses />
-            </Suspense>
+            <Glimpses />
         </div>
     );
 };

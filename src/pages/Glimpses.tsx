@@ -51,7 +51,7 @@ const Glimpses = () => {
                                     cursor: 'pointer',
                                     background: '#080808'
                                 }}>
-                                    <img src={`https://cdn.svcehighways.in/assets/glimpses/${img}`} alt="Highways Moment" loading="lazy" style={{ width: 'auto', height: '100%', objectFit: 'contain', display: 'block' }} />
+                                    <img src={`https://cdn.svcehighways.in/assets/glimpses/${img}`} alt="Highways Moment" loading="eager" style={{ width: 'auto', height: '100%', objectFit: 'contain', display: 'block' }} />
                                     <div style={{ position: 'absolute', inset: 0, background: 'rgba(0,0,0,0.1)' }}></div>
                                 </div>
                             ))}
