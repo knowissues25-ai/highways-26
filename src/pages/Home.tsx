@@ -226,7 +226,7 @@ const Home = () => {
                                                 display: 'inline-block'
                                             }}
                                         >
-                                            WATCH TRAILER
+                                            WATCH HERE
                                         </a>
                                     ) : (
                                         <div style={{
