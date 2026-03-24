@@ -255,7 +255,7 @@ export const teamData: TeamGroup[] = [
                 "name": "A Mahathi Kavya",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/IMG_8029 - A MAHATHI KAVYA ECE.jpeg"
+                "image": "assets/members/IMG_8029 - A MAHATHI KAVYA ECE.webp"
             },
             {
                 "name": "Balapranav K",
@@ -319,7 +319,7 @@ export const teamData: TeamGroup[] = [
             },
             {
                 "name": "Nimal.S",
-                "role": "Sub lead",
+                "role": "Member",
                 "spirit": "",
                 "image": "assets/members/IMG-20260213-WA0028(1) - NIMAL S EEE (1).jpg",
                 "imagePosition": "center 50%"
@@ -352,7 +352,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Suraj G",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/passport size photo  - SURAJ G IT.webp"
+                "image": "passport-size-photo---SURAJ-G-IT.webp"
             },
             {
                 "name": "Vethavarna V",
@@ -436,7 +436,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Srikrishnan",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/Srikrishnan-member-hospitality  - SRIKRISHNAN S CHE.jpg"
+                "image": "Srikrishnan-member-hospitality---SRIKRISHNAN-S-CHE.jpg"
             },
             {
                 "name": "Thiyaneshwaran A",
@@ -467,7 +467,7 @@ export const teamData: TeamGroup[] = [
                 "name": "ARIVUNITHI R",
                 "role": "Lead",
                 "spirit": "",
-                "image": "assets/members/Arivunithi R  - ARIVUNITHI R CSE.webp"
+                "image": "Arivunithi-R---ARIVUNITHI-R-CSE.webp"
             },
             {
                 "name": "Dakxin Shaswath Haran Y",
@@ -576,7 +576,7 @@ export const teamData: TeamGroup[] = [
                 "name": "ELAMUKHIL K",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/mukhil id  - ELAMUKHIL K CHEM.jpg"
+                "image": "mukhil-id---ELAMUKHIL-K-CHEM.jpg"
             },
             {
                 "name": "LEO",
@@ -709,7 +709,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Adhitya R",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/Adhitya-Member_Vigilance  - ADHITYA R EEE.jpg"
+                "image": "Adhitya-Member_Vigilance---ADHITYA-R-EEE.jpg"
             },
             {
                 "name": "BALAJI S",
@@ -733,7 +733,7 @@ export const teamData: TeamGroup[] = [
                 "name": "LAVANYA C",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/LAVANYA C _VIGILANCE  - LAVANYA C ECE.jpg"
+                "image": "LAVANYA-C-_VIGILANCE---LAVANYA-C-ECE.jpg"
             },
             {
                 "name": "LOHID KISHORE N S",
@@ -763,13 +763,13 @@ export const teamData: TeamGroup[] = [
                 "name": "NEHAA SRI M S",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/NEHAA SRI M S_VIGILANCE  - Nehaa Sri M S ECE.jpg"
+                "image": "NEHAA-SRI-M-S_VIGILANCE---Nehaa-Sri-M-S-ECE.jpg"
             },
             {
                 "name": "PEYAL NEERAN TS",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/PEYAL NEERAN T S CIVIL.jpg"
+                "image": "Peyal-Neeran-TS-member-at-vigilance-wing---PEYAL-NEERAN-T-S-CIVIL.jpg"
             },
             {
                 "name": "Rohith kumaar P R",

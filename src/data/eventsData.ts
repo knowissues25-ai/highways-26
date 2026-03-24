@@ -175,7 +175,7 @@ export const allEvents: EventDetail[] = [
     "time": "9:30 AM",
     "location": "MPH",
     "color": "#e8729a",
-    "image": "",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/overdrive.jpeg",
     "description": "The stage is set, the amps are cranked, and the spotlight is waiting. This is more than a performance; it's a high-voltage war of melodies and metaphors. We're looking for the tightest rhythm sections, the most blistering solos, and the kind of stage presence that turns a crowd into a movement. Bring your best originals or redefine the classics. Only one band will claim the throne.",
     "rules": [
       "Participants must present a valid college ID card for eligibility.",
@@ -187,7 +187,7 @@ export const allEvents: EventDetail[] = [
       "Obscene language and inappropriate stage conduct are strictly forbidden.",
       "All decisions rendered by the judges and organizers are final and binding."
     ],
-    "prizePool": "Rs. 10,000/-",
+    "prizePool": "Rs. 12,000/-",
     "regType": "Premium",
     "regFee": "Rs. 800/-",
     "teamSize": "4–8 MEMBERS",
@@ -213,7 +213,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:30 PM",
     "location": "Library Seminar Hall",
     "color": "#f5e6c8",
-    "image": "",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/crescendo.jpeg",
     "description": "Stripped back and unplugged, this is where pure talent meets raw emotion. Whether you're a powerhouse of classical Indian ragas or a master of contemporary pop, this event is your canvas. No backup dancers, no distractions—just one voice, one microphone, and the chance to leave the audience breathless.",
     "rules": [
       "\tParticipants must present a valid college ID card for eligibility.",
@@ -343,12 +343,12 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "Library Seminar Hall",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/silver-screen.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/movie-screen-40.jpeg",
     "description": "Lights, camera, enjoy! Experience the magic of cinema on the big screen as we bring together a collection of captivating short films. Sit back, relax, and immerse yourself in powerful storytelling, creative visuals, and inspiring narratives crafted by talented filmmakers.\nJoin us for an unforgettable screening session where stories come alive, emotions unfold, and every frame sparks imagination.\nNote: Entry ticket is applicable.",
     "rules": [],
     "prizePool": "",
     "regType": "Standard",
-    "regFee": "Rs. 35/-",
+    "regFee": "Rs. 40/-",
     "teamSize": "",
     "pocs": [
       {
@@ -364,7 +364,7 @@ export const allEvents: EventDetail[] = [
         "phone": "98840 36973"
       }
     ],
-    "regLink": "https://forms.gle/7L7eqMcSQp4DB7299"
+    "regLink": ""
   },
   {
     "id": 11,
@@ -1033,7 +1033,7 @@ export const allEvents: EventDetail[] = [
     "time": "April 09, 2026",
     "location": "Online Event",
     "color": "#e8729a",
-    "image": "",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/meme_photo_contest.jpeg",
     "description": "The Photo Club brings you a fun and creative online event – Meme Photography Contest as part of Highway 26. This event challenges participants to transform their own original photographs into hilarious, relatable meme content. \nParticipants must use their creativity to add witty captions, clever edits, or humorous twists to their photos, turning everyday moments into engaging and shareable memes. The goal is to combine photography with humor, creating content that resonates with people and has strong viral potential. \nParticipants are free to use any editing tools, but the photograph and meme content must be completely original. The content should be fun, respectful, and engaging, avoiding any offensive or inappropriate material. \nThis is an individual event, allowing each participant to showcase their unique sense of humor and creativity. Entries will be judged based on originality, humor, creativity, and overall impact.",
     "rules": [],
     "prizePool": "₹1,000/-",
