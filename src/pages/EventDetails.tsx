@@ -92,6 +92,7 @@ const EventDetails = () => {
                             whileHover={{ scale: 1.05, backgroundColor: activeTheme.color, color: activeTheme.buttonText, boxShadow: `0 30px 60px ${activeTheme.color}55` }} 
                             whileTap={{ scale: 0.95 }}
                             onClick={() => event.regLink && window.open(event.regLink, '_blank')}
+                            className={event.regLink ? 'cursor-pointer' : 'cursor-not-allowed'}
                             style={{ 
                                 flex: '2', 
                                 minWidth: '280px',
@@ -103,7 +104,6 @@ const EventDetails = () => {
                                 fontWeight: 950,
                                 fontSize: '1.2rem',
                                 letterSpacing: '3px',
-                                cursor: event.regLink ? 'pointer' : 'not-allowed',
                                 transition: 'all 0.3s ease',
                                 fontFamily: activeTheme.displayFont,
                                 textTransform: 'uppercase',

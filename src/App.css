@@ -266,7 +266,6 @@
 html {
   scroll-behavior: smooth;
   /* Shuriken Cursor */
-  cursor: auto;
   font-size: 16px;
   background: var(--bg-main);
   overflow-x: hidden;
@@ -286,7 +285,6 @@ body::-webkit-scrollbar {
 *,
 *::before,
 *::after {
-  cursor: auto;
   box-sizing: border-box;
 }
 
@@ -397,22 +395,6 @@ body.menu-open {
 
 
 
-@media (hover: hover) and (pointer: fine) {
-  body.has-ninja-cursor,
-  body.has-ninja-cursor *,
-  body.has-ninja-cursor *::before,
-  body.has-ninja-cursor *::after {
-    cursor: none !important;
-  }
-}
-
-@media (hover: none), (pointer: coarse) {
-  .ninja-cursor,
-  .ninja-cursor-aura,
-  .ninja-cursor-trail {
-    display: none;
-  }
-}
 
 /* Hankai Fire Glow */
 .world-hankai::after {
@@ -551,7 +533,6 @@ body.menu-open {
 .nav-link {
   position: relative;
   overflow: hidden;
-  cursor: pointer !important;
 }
 
 .btn-matsuri::after,
@@ -727,7 +708,6 @@ body.menu-open {
   z-index: 1000;
   transition: all 0.4s ease;
   background: transparent;
-  cursor: default;
 }
 
 .navbar.scrolled {
@@ -760,7 +740,6 @@ body.menu-open {
   background: rgba(0, 0, 0, 0.4);
   border: 1px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -936,7 +915,6 @@ body.menu-open {
   line-height: 1;
   align-items: center;
   justify-content: center;
-  cursor: pointer;
   transition: all 0.3s ease;
 }
 
@@ -1535,7 +1513,6 @@ body.menu-open {
   border: 1px solid var(--glass-border);
   border-bottom: 4px solid var(--primary);
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-  cursor: pointer;
   overflow: hidden;
   position: relative;
 }
@@ -1704,7 +1681,6 @@ body.menu-open {
   color: var(--secondary);
   border-radius: 2px;
   font-weight: 800;
-  cursor: pointer;
   transition: all 0.3s ease;
   letter-spacing: 2px;
 }
@@ -1971,7 +1947,6 @@ body.menu-open {
 
 .social-icons i {
   transition: all 0.3s ease;
-  cursor: pointer;
 }
 
 .social-icons i:hover {
@@ -2660,10 +2635,6 @@ footer::after,
     --container-padding: 20px;
   }
 
-  body {
-    cursor: auto !important;
-  }
-
   .container {
     padding: 0 var(--container-padding);
   }
@@ -3297,7 +3268,6 @@ footer::after,
   padding: 1.2rem 2.5rem;
   border-radius: 12px;
   color: white;
-  cursor: pointer;
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
@@ -3362,7 +3332,6 @@ footer::after,
   font-size: 0.75rem;
   font-weight: 700;
   letter-spacing: 1px;
-  cursor: pointer;
   transition: all 0.3s ease;
   text-transform: uppercase;
 }
@@ -3755,7 +3724,6 @@ footer::after,
   color: white;
   font-size: 1.4rem;
   font-weight: 900;
-  cursor: pointer;
   transition: color 0.3s ease;
 }
 

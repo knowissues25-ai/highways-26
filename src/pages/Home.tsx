@@ -169,7 +169,6 @@ const Home = () => {
                                         textAlign: 'center',
                                         border: '1px solid rgba(255,77,77,0.1)',
                                         position: 'relative',
-                                        cursor: 'pointer',
                                         backdropFilter: 'blur(10px)'
                                     }}
                                 >

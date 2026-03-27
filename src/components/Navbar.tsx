@@ -47,14 +47,14 @@ const Navbar = () => {
                     <img src={svceLogo} alt="SVCE Logo" className="logo-img-svce" />
                 </Link>
 
-                <div className="mobile-toggle" onClick={toggleMobileMenu}>
+                <div className="mobile-toggle cursor-pointer" onClick={toggleMobileMenu}>
                     <div className={`bar ${mobileMenuOpen ? 'animate' : ''}`}></div>
                 </div>
 
                 <div className={`nav-links ${mobileMenuOpen ? 'mobile-active' : ''}`}>
                     <button
                         type="button"
-                        className="mobile-nav-close"
+                        className="mobile-nav-close cursor-pointer"
                         onClick={closeMobileMenu}
                         aria-label="Close navigation menu"
                     >

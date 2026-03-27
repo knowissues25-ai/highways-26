@@ -47,7 +47,6 @@ body {
   background-size: cover, cover, cover;
   color: var(--text-light);
   overflow-x: hidden;
-  cursor: auto;
 }
 
 code {

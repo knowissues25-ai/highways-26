@@ -48,7 +48,6 @@ const Glimpses = () => {
                                     border: '1px solid rgba(255,255,255,0.05)',
                                     transition: 'border-color 0.4s ease',
                                     position: 'relative',
-                                    cursor: 'pointer',
                                     background: '#080808'
                                 }}>
                                     <img src={`https://cdn.svcehighways.in/assets/glimpses/${img}`} alt="Highways Moment" loading="eager" style={{ width: 'auto', height: '100%', objectFit: 'contain', display: 'block' }} />
