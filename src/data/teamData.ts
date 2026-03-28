@@ -315,7 +315,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Gururaje M",
                 "role": "Sub lead",
                 "spirit": "",
-                "image": "assets/members/Gururaje_ Sub lead_Event planning Wing - GURURAJE M CE.webp"
+                "image": "assets/members/gururaje.webp"
             },
             {
                 "name": "Nimal.S",

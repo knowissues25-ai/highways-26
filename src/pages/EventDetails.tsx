@@ -128,20 +128,48 @@ const EventDetails = () => {
                             <h3 style={{ color: activeTheme.color, fontSize: '1rem', fontWeight: 900, letterSpacing: '3px', marginBottom: '1.2rem', fontFamily: activeTheme.displayFont }}>DESCRIPTION</h3>
                             <p style={{ fontSize: '1.05rem', lineHeight: 1.7, color: 'rgba(255,255,255,0.7)', fontWeight: 500 }}>{event.description}</p>
                         </div>
-
                         <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '3rem' }}>
-                            <div>
-                                <h3 style={{ color: activeTheme.color, fontSize: '1rem', fontWeight: 900, letterSpacing: '3px', marginBottom: '1.2rem', fontFamily: activeTheme.displayFont }}>RULES & GUIDELINES</h3>
-                                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                                    {event.rules.map((rule, i) => (
-                                        <div key={i} style={{ display: 'flex', gap: '1.2rem', color: 'rgba(255,255,255,0.6)', fontSize: '1rem', lineHeight: 1.6 }}>
-                                            <span style={{ color: activeTheme.color, fontWeight: 900, fontSize: '0.8rem', minWidth: '25px', paddingTop: '4px' }}>{String(i + 1).padStart(2, '0')}</span>
-                                            <span>{rule}</span>
-                                        </div>
-                                    ))}
-                                </div>
-                            </div>
+                            {event.rules && event.rules.length > 0 && (
+                                <div>
+                                    <h3 style={{ 
+                                        color: activeTheme.color, 
+                                        fontSize: '1rem', 
+                                        fontWeight: 900, 
+                                        letterSpacing: '3px', 
+                                        marginBottom: '1.2rem', 
+                                        fontFamily: activeTheme.displayFont 
+                                    }}>
+                                        RULES & GUIDELINES
+                                    </h3>
 
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                                        {event.rules.map((rule, i) => (
+                                            <div 
+                                                key={i} 
+                                                style={{ 
+                                                    display: 'flex', 
+                                                    gap: '1.2rem', 
+                                                    color: 'rgba(255,255,255,0.6)', 
+                                                    fontSize: '1rem', 
+                                                    lineHeight: 1.6 
+                                                }}
+                                            >
+                                                <span style={{ 
+                                                    color: activeTheme.color, 
+                                                    fontWeight: 900, 
+                                                    fontSize: '0.8rem', 
+                                                    minWidth: '25px', 
+                                                    paddingTop: '4px' 
+                                                }}>
+                                                    {String(i + 1).padStart(2, '0')}
+                                                </span>
+
+                                                <span>{rule}</span>
+                                            </div>
+                                        ))}
+                                    </div>
+                                </div>
+                            )}
                             <div>
                                 <h3 style={{ color: activeTheme.color, fontSize: '1rem', fontWeight: 900, letterSpacing: '3px', marginBottom: '1.2rem', fontFamily: activeTheme.displayFont }}>CONTACT ORGANIZERS</h3>
                                 <div style={{ display: 'flex', gap: '2rem 4rem', flexWrap: 'wrap' }}>

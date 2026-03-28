@@ -35,7 +35,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:00 PM",
     "location": "MPH",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/parifect.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/pairfect1.png",
     "description": "Pairfect is a dance competition performed by a team of two participants. This event focuses on coordination, chemistry, synchronization, and creative expression between partners.\nParticipants may perform in any dance style including Classical, Contemporary, Hip-Hop, Folk, Western, or Fusion. The performance should reflect strong connection, timing, and stage presence as a pair.\nJudging will be based on synchronization, choreography, expressions, creativity, costume, and overall impact.",
     "rules": [
       "Time Limit:\n   Minimum – 2 mins\n   Maximum – 4 mins",
@@ -56,47 +56,10 @@ export const allEvents: EventDetail[] = [
       },
       {
         "name": "Nivethetha",
-        "phone": "+917395973335"
+        "phone": "+91 88076 60926"
       }
     ],
     "regLink": "https://forms.gle/QwtQB3D19qNgnoDB8"
-  },
-  {
-    "id": 2,
-    "title": "Groovanza",
-    "slug": "groovanza",
-    "category": "Music and Dance",
-    "day": 1,
-    "date": "April 09, 2026",
-    "time": "1:00 PM",
-    "location": "MPH",
-    "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/groovanza.jpg",
-    "description": "Groovanza is a dance competition performed by a team of 5–25 participants. This event focuses on coordination, teamwork, synchronization, and creative expression among all members of the group. It highlights strong formations, seamless transitions, collective chemistry, and the ability to perform as one unified unit on stage.\nParticipants may perform in any dance style including Classical, Contemporary, Hip-Hop, Folk, Western, or Fusion. The performance should reflect strong connection, timing, and stage presence as a group.\nJudging will be based on synchronization, choreography, expressions, creativity, costume, and overall impact.",
-    "rules": [
-      "Time Limit:\n   Minimum – 3 minutes\n   Maximum – 5 minutes",
-      "Team Requirement:\n   Each team must consist of a minimum of 5 participants and a maximum of 25 participants.",
-      "Dance Style:\n   All dance styles are allowed, including classical, contemporary, hip-hop, freestyle, folk, cinematic, etc.",
-      "No Vulgarity:\n   Vulgar movements, gestures, expressions, or inappropriate music are strictly prohibited.",
-      "Costume Guidelines:\n   Costumes must be decent and non-vulgar.\n   Any inappropriate attire will lead to disqualification.",
-      "Music Submission:\n   Participants must submit their audio track in advance (in MP3 format).\n   Teams are advised to carry a backup copy.",
-      "Judges’ Decision:\n   The judges’ decision will be final and binding."
-    ],
-    "prizePool": "Rs. 12,000/-",
-    "regType": "Premium",
-    "regFee": "Rs. 1,000/-",
-    "teamSize": "5-25 MEMBERS",
-    "pocs": [
-      {
-        "name": "Abinav",
-        "phone": "7338755434"
-      },
-      {
-        "name": "Thanushka",
-        "phone": "7395973335"
-      }
-    ],
-    "regLink": "https://forms.gle/WZnPzY3UP11atNr66"
   },
   {
     "id": 3,
@@ -108,7 +71,7 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "MPH",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/solography.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/solography1.png",
     "description": "Solography is an individual dance competition where participants take complete ownership of the stage and showcase their talent through a self-performed routine. This event highlights creativity, technique, expression, musicality, and stage presence.\nParticipants are free to perform in any dance style, including Classical, Contemporary, Hip-Hop, Folk, Western, Fusion, or Freestyle.\nEach performance must be within the specified time limit, and contestants will be judged based on choreography, synchronization with music, expressions, originality, costume, and overall impact.",
     "rules": [
       "Time Limit:\n   Minimum – 1 minute 30 seconds (90 seconds)\n   Maximum – 2 minutes 30 seconds",
@@ -124,8 +87,12 @@ export const allEvents: EventDetail[] = [
     "teamSize": "SOLO",
     "pocs": [
       {
-        "name": "Thanushka",
-        "phone": "7395973335"
+        "name": "Srinithi",
+        "phone": "+91 98405 87220"
+      },
+      {
+        "name": "Snigdha",
+        "phone": "+91 93840 67567"
       }
     ],
     "regLink": "https://forms.gle/C5s6Hdd9PMi4zABV6"
@@ -140,7 +107,7 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "MPH",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/groove-chemistry.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/groove-chemistry1.png",
     "description": "Groove Chemistry is a two-round dance challenge that tests both recognition of iconic moves and the ability to adapt instantly to changing music.\n\nRound 1 – Hookstep Challenge:-\nPopular songs will be played and participants must quickly perform the correct signature hooksteps. Based on accuracy, timing, and stage presence, the top dancers will advance to the next round.\n\nRound 2 – Adaptune:-\nThe finalists enter an adaptive dance round where the DJ switches songs at short intervals, shifting across genres and moods. Dancers must instantly adjust their style, expressions, and energy to match the new beat.\n\nround 2. \n   Round-2: Participants will be given random songs on the spot. The song played will change every few seconds.   \n3. Participation:\n   Solo participation only.\n\n4. Dance Style:\n   All dance styles are allowed, including classical, hip-hop, contemporary, freestyle, folk, etc.\n5. Judging Criteria:\n   Participants will be judged based on adaptability to the given music and technical execution.\n6. No Vulgarity:\n   Vulgar movements, gestures, expressions, or inappropriate content are strictly prohibited.\n7. Costume Guidelines:\n   Costumes must be decent and non-vulgar.\n   Any inappropriate attire may lead to disqualification.\n\n8.Participants will be judged based on synchronization with music, expressions, originality, costume, and overall stage impact.\n9. The judges’ decision will be final.",
     "rules": [
       "Time Limit:\n   Minimum – 1 minute 30 seconds (90 seconds)\n   Maximum – 3 minutes",
@@ -160,7 +127,11 @@ export const allEvents: EventDetail[] = [
     "pocs": [
       {
         "name": "Kheerthi",
-        "phone": "99403 18111"
+        "phone": "+91 99403 18111"
+      },
+      {
+        "name": "Akshara",
+        "phone": "+ 91 91508 03126"
       }
     ],
     "regLink": "https://forms.gle/WWYitmLQ6jTJ6VQR7"
@@ -343,7 +314,7 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "Library Seminar Hall",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/movie-screen-40.jpeg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/silver-screen1.png",
     "description": "Lights, camera, enjoy! Experience the magic of cinema on the big screen as we bring together a collection of captivating short films. Sit back, relax, and immerse yourself in powerful storytelling, creative visuals, and inspiring narratives crafted by talented filmmakers.\nJoin us for an unforgettable screening session where stories come alive, emotions unfold, and every frame sparks imagination.\nNote: Entry ticket is applicable.",
     "rules": [],
     "prizePool": "",
@@ -408,7 +379,7 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "CB515 & CB516",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/wh0's-the-sus.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/whos-the-sus.webp",
     "description": "A crime has happened. Clues are scattered. Witnesses tell different stories. Now the real question is... Will your team uncover the truth... or will the mystery remain unsolved?\nStep into this interactive crime investigation challenge, analyze the clues, question the evidence, and connect the dots before time runs out. Think you can crack the case? Step in and prove it.",
     "rules": [],
     "prizePool": "",
@@ -417,8 +388,8 @@ export const allEvents: EventDetail[] = [
     "teamSize": "5 MEMBERS",
     "pocs": [
       {
-        "name": "Thamizh",
-        "phone": "93425 97576"
+        "name": "Sriram A",
+        "phone": "+91 89409 63521"
       }
     ],
     "regLink": "https://forms.gle/gcC8n8Zz3DT5RdJYA"
@@ -483,7 +454,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB501, CB507 & CB508",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/scavenger-hunt.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/scavenger-hunt.png",
     "description": "The Scavenger Hunt is a three-round competitive event designed to test participants' knowledge, teamwork, speed, observation skills, and logical thinking in a fun and engaging way. The event progresses from entertainment-based challenges to an intense mystery-solving finale, ensuring excitement at every stage.\n\nRound 1 – Fun Quiz Round\n An interactive quiz including movie/song guessing (dialogue, blurred poster, character description), emoji-based questions, RRC awareness questions, fun trivia, and rapid-fire rounds. Top-performing teams qualify for\n\nRound 2.\n\nRound 2 – Color Chit Movie Hunt (Classroom Round)\n 40 chits in 4 colors (Red, Blue, Green, Yellow – 10 each) are hidden in the classroom. 1 chit per color holds the real movie clue; the remaining 9 have fun tasks. Teams must find all 4 real clues and connect them. Special rule: participants must move only by walking on benches. Touching the floor = disqualification.\n\nRound 3 – Crime Scene Connection (Indoor Final Round)\n Organizers narrate a fictional crime scene scenario. Teams must listen carefully, observe the setup, and connect clues to identify the hidden object related to the crime. The team that connects correctly in the shortest time wins.",
     "rules": [],
     "prizePool": "",
@@ -492,8 +463,8 @@ export const allEvents: EventDetail[] = [
     "teamSize": "2 MEMBERS",
     "pocs": [
       {
-        "name": "Jegatheesh",
-        "phone": "9042685575"
+        "name": "Niranjan V",
+        "phone": "+91 73050 14107"
       }
     ],
     "regLink": "https://docs.google.com/forms/d/1MXi6ohKy7he-UVcTo8kWaUpjyw22kFO7gnMmhKA5ico/viewform"
@@ -558,7 +529,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB505",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/maathi-yosi.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/maathi-yosi1.png",
     "description": "Mathi Yoshi is a fun and interactive event designed to test participants' quick thinking and creativity. Each team consists of two participants, and the event will be conducted in two rounds.\n\nRound 1 – Irrelevant Answer Challenge\n Each team is given 1 minute. Both members are assigned different names. The questioner calls out a name and asks a question. The participant must immediately give an irrelevant or unrelated answer. Teams that succeed advance to\n\nRound 2.\n\nRound 2 – Support and Oppose Round\n Each team is given a topic. Total time: 3 minutes. One participant supports the topic while the other opposes it. When the host announces “Mathi Yoshi”, both participants must immediately switch their roles.",
     "rules": [],
     "prizePool": "Rs. 1,500/-",
@@ -678,7 +649,7 @@ export const allEvents: EventDetail[] = [
     "title": "Memerpreneur",
     "slug": "memerpreneur",
     "category": "Performance Arts",
-    "day": 1,
+    "day": 2,
     "date": "10th April 2026",
     "time": "9:00 AM",
     "location": "CB513",
@@ -859,8 +830,15 @@ export const allEvents: EventDetail[] = [
     "location": "CB526",
     "color": "#e8729a",
     "image": "https://cdn.svcehighways.in/highways-all-poster/bgmi.jpg",
-    "description": "Survival Showdown is a BGMI eSports tournament conducted as a squad-based Battle Royale competition where teams compete against each other in custom lobby matches to earn points through placements and eliminations.\nEach team must consist of 4 players (with an optional substitute). After registrations close, all teams will be grouped and the match schedule will be announced before the event begins.\nTournament Structure\nQualifier Round\n All registered teams will be divided into groups and compete in custom room matches. Points will be awarded based on final placement and number of eliminations (kills). The top-performing teams from the qualifiers will advance to the Grand Finals.\nGrand Final\n The qualified teams will compete in multiple final matches. Points from all matches will be combined to determine the overall leaderboard. The team with the highest total points at the end of the final matches will be declared the tournament champion.\nMatch Settings\n Mode: Custom Room – Battle Royale\n Map: Erangel\n Team Type: Squad (4 Players)\n Players must join the custom lobby when instructed by the organizers.\nPoint System\n Teams will earn points based on:\n • Final Placement in the match\n • Number of Eliminations (Kills)\nThe leaderboard will be updated after every match.\nRULES & GUIDLINES\n1.\tEach team must consist of 4 players from the same college.\n\n2.\tPlayers must report on time when their match is called.\n\n3.\tAny use of unfair methods, exploits, or hacks will result in immediate disqualification.\n\n4.\tTeams must follow all instructions given by the referees and event coordinators.\n\n5.\tThe decision of the organizers will be final in case of disputes.\nThe tournament will conclude with the Grand Finals where the top teams compete across multiple matches to determine the ultimate BGMI champions.",
-    "rules": [],
+    "description": " Survival Showdown is a BGMI eSports tournament conducted as a squad-based Battle Royale competition where teams compete against each other in custom lobby matches to earn points through placements and eliminations.\nEach team must consist of 4 players (with an optional substitute). After registrations close, all teams will be grouped and the match schedule will be announced before the event begins.\nTournament Structure\nQualifier Round\n All registered teams will be divided into groups and compete in custom room matches. Points will be awarded based on final placement and number of eliminations (kills). The top-performing teams from the qualifiers will advance to the Grand Finals.\nGrand Final\nThe qualified teams will compete in multiple final matches. Points from all matches will be combined to determine the overall leaderboard. The team with the highest total points at the end of the final matches will be declared the tournament champion.\nMatch Settings\n Mode: Custom Room – Battle Royale\n Map: Erangel\n Team Type: Squad (4 Players)\n\n Players must join the custom lobby when instructed by the organizers.\nPoint System\n Teams will earn points based on:\n • Final Placement in the match\n • Number of Eliminations (Kills)\nThe leaderboard will be updated after every match.",
+    "rules": [
+      "Each team must consist of 4 players.",
+      "Players must report on time when their match is called.",
+      "Any use of unfair methods, exploits, or hacks will result in immediate disqualification.",
+      "Teams must follow all instructions given by the referees and event coordinators.",
+      "The decision of the organizers will be final in case of disputes.",
+      "The tournament will conclude with the Grand Finals where the top teams compete across multiple matches to determine the ultimate BGMI champions."
+    ],
     "prizePool": "Rs. 4,000/-",
     "regType": "Premium",
     "regFee": "Rs. 100/-",
@@ -943,7 +921,10 @@ export const allEvents: EventDetail[] = [
     "pocs": [
       {
         "name": "Manoj",
-        "phone": "6380693806"
+        "phone": "+91 63806 93806"
+      },      {
+        "name": "Abishek M",
+        "phone": "+91 90808 66666"
       }
     ],
     "regLink": "https://docs.google.com/forms/d/e/1FAIpQLSdUu8fMTlmrxH0Y9Naqggh77ASJBNyPOIQccVitwihmXi3xYA/viewform?usp=header"
@@ -1025,16 +1006,16 @@ export const allEvents: EventDetail[] = [
   },
   {
     "id": 37,
-    "title": "Meme Photography Contest",
-    "slug": "meme-photography-contest",
+    "title": "Click and Crack Up", 
+    "slug": "Click and Crack Up",
     "category": "Cinematic and Visual Arts",
     "day": 1,
     "date": "April 09, 2026",
     "time": "April 09, 2026",
     "location": "Online Event",
     "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/meme_photo_contest.jpeg",
-    "description": "The Photo Club brings you a fun and creative online event – Meme Photography Contest as part of Highway 26. This event challenges participants to transform their own original photographs into hilarious, relatable meme content. \nParticipants must use their creativity to add witty captions, clever edits, or humorous twists to their photos, turning everyday moments into engaging and shareable memes. The goal is to combine photography with humor, creating content that resonates with people and has strong viral potential. \nParticipants are free to use any editing tools, but the photograph and meme content must be completely original. The content should be fun, respectful, and engaging, avoiding any offensive or inappropriate material. \nThis is an individual event, allowing each participant to showcase their unique sense of humor and creativity. Entries will be judged based on originality, humor, creativity, and overall impact.",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/click-and-crack-up.png",
+    "description": "The Photo Club brings you a fun and creative online event – Click & Crack Up as part of Highway 26. This event challenges participants to transform their own original photographs into hilarious, relatable meme content. Participants must use their creativity to add witty captions, clever edits, or humorous twists to their photos, turning everyday moments into engaging and shareable memes. The goal is to combine photography with humor, creating content that resonates with people and has strong viral potential. Participants are free to use any editing tools, but the photograph and meme content must be completely original. The content should be fun, respectful, and engaging, avoiding any offensive or inappropriate material. This is an individual event, allowing each participant to showcase their unique sense of humor and creativity. Entries will be judged based on originality, humor, creativity, and overall impact.",
     "rules": [],
     "prizePool": "₹1,000/-",
     "regType": "Standard",
