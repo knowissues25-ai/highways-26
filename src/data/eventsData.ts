@@ -222,7 +222,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB314",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/7.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/mystic-melodies.png",
     "description": "Get ready for a fun-filled event that blends music, movies, and quick thinking! This event is designed to test your listening skills, memory, and ability to identify songs under pressure. From iconic BGMs to tricky mashups, bring your A-game and enjoy the ultimate entertainment challenge!\n\nRound 1: BGM Blast (Guess the Tune) \nParticipants will listen to short background music (BGM) clips from songs or movies. They must quickly identify the correct song name. Speed and accuracy will play a key role in scoring.\n\nRound 2: Movie Mania (Guess the Song from Scene) \nAn image (still) from a song scene in a movie will be displayed. Participants must identify the correct song based on the visual clue.\n\nRound 3: Mix & Match (Audio Mixing Challenge) \nA single audio clip containing a mix of three different songs will be played. Participants must correctly identify all three songs. Partial answers may earn partial points based on rules.",
     "rules": [
       "Participants must present a valid college ID card for eligibility.",
@@ -347,7 +347,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:00 PM",
     "location": "Library Seminar Hall",
     "color": "#ff0000",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/meme-wars.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/meme-wars.webp",
     "description": "Cinema isn’t just watched—it’s felt, quoted, and now… memed. Step into the world where iconic scenes meet sharp wit and creativity. We bring you a Movie-Centric Meme Contest, where your love for films transforms into humor that hits harder than a plot twist. From timeless classics to trending blockbusters, every frame is your playground. Whether it’s a dramatic dialogue turned sarcastic, a villain made relatable, or a scene reimagined for everyday college chaos—this is your stage to make people laugh, think, and say, “That’s so true!”",
     "rules": [
       "Strictly no plagiarism — your meme must be original No vulgar, offensive, or inappropriate content",
@@ -479,7 +479,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:00 PM",
     "location": "CB524 & CB525",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/mystery-box-challenge.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/genz-junk.webp",
     "description": "Most people see a pile of trash; we see a 1000-aura masterpiece waiting to happen. We’re handing you a box of 'emotional support junk' and 45 minutes to prove you've got the vision. From logic paradoxes to the ultimate scrap-build, it’s time to turn 'delulu' into 'realulu.' No instructions, no gatekeeping—just pure ingenuity. Do you have the creative rizz to take home the prize?\n\nRound 1: The Unsolved Frame\n The Specifics: 15 Minutes.\n The Task: Teams are presented with 5 \"Logic Paradox\" questions and 3 Movie Props.\n The Goal: Teams must guess the prop and solve the riddles.\n Scoring: 10 points per riddle.\n Teams with maximum points moves to\n\nround 2.\n\nRound 2: The Prop Hunter (The Utility Sprint)\n The Specifics: 10 Minutes total (60 seconds per item).\n The Task: Use the \"Random Utility List\" (Whisks, rubber gloves, old CDs). Every 60 seconds, a new random item will be given and the team must list the applications.\n The Goal: Teams must list as many applications as possible on a sheet of paper.\n Standard Use (e.g., using a hanger for clothes): 2 Points.\n Creative Use (e.g., using a hanger as a TV antenna): 5 Points.\n The Cut: Only the Final 5 Teams with the highest \"Utility Score\" enter the finale.\n\nRound 3: The Ultimate Mystery Build\n The Specifics: 45 Minutes Build + 5 minutes Pitch.\n The Task: Each team receives the Master Mystery Box (Bottles, cardboard, tape, etc.).\n Teams must use them and build the most useful or funnier invention.\n The Win: The Best Invention Takes the Box. (Judged on: 45% Stability, 45% Creativity/Humor, 10% Presentation).",
     "rules": [],
     "prizePool": "Rs. 3.000/-",
@@ -504,7 +504,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB501 & CB502",
     "color": "#ff0000",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/HUMAN-KNOT.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/human-knot.jpeg",
     "description": "Human Knot Challenge is a time-based team event designed to test precision, coordination, communication, and teamwork. The event consists of two rounds.\nIn\n\nRound 1, one member of the team will have their hands and legs safely tied while the remaining members complete three tasks to earn their teammate’s release. The tasks include bouncing a ping pong ball into a paper cup, sliding a coin into a marked box from behind a line, and a Noise Cancel Challenge where the tied member guesses a word while wearing headphones playing loud music. Teams that complete the tasks in the least time qualify for\n\nRound 2.\nIn\n\nRound 2, the focus shifts to coordination and trust. One member will be blindfolded and must build a 3-tier pyramid using six cups. Another teammate can guide them only through specific taps without speaking. The pyramid must stand independently for at least three seconds. The team that completes the structure in the least time will be declared the winner.",
     "rules": [],
     "prizePool": "Rs. 3,500/-",
@@ -513,7 +513,7 @@ export const allEvents: EventDetail[] = [
     "teamSize": "4 MEMBERS",
     "pocs": [
       {
-        "name": "Sakthi Purushuthaman",
+        "name": "Sakthi Purushothaman",
         "phone": "7305940418"
       }
     ],
@@ -629,10 +629,10 @@ export const allEvents: EventDetail[] = [
     "time": "9:00 AM",
     "location": "CB302",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/disasterpeneur.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/disasterpeneur.webp",
     "description": "Participants must transform an ordinary or useless object into a viral, high-demand brand. This event challenges participants to think creatively and market even the most unexpected products with confidence. It tests marketing intelligence, creativity, branding skills, storytelling ability, and stage presence while pushing teams to persuade the audience and judges through innovative ideas and engaging pitches.\n\nRound 1 – Sell the Unsellable\n Participants are given a random useless object and must sell it as a ₹1 crore product within 60 seconds. Judging criteria: Confidence, Creativity, Humor, and Persuasion.\n\nRound 2 – Brand Creation\n Teams have 10 minutes to prepare and 3 minutes to pitch a complete brand concept. The pitch must include: product name, tagline, brand story, target audience, Instagram ad pitch, logo concept, and marketing channel.\n\nRound 3 – Go Viral\n Teams create and perform a 30-second reel script live. The winner is decided based on the highest engagement score through audience voting via a QR poll.",
     "rules": [],
-    "prizePool": "Rs. 1000/-",
+    "prizePool": "Rs. 2000/-",
     "regType": "Standard",
     "regFee": "",
     "teamSize": "1–3 MEMBERS",
@@ -804,7 +804,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB313 & CB314",
     "color": "#ff0000",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/powerplay-arena.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/power-play-arena.webp",
     "description": "Power Play Arena is a high-energy, multi-round team competition where groups of three begin with a small base token count and compete in a series of fast-paced mini-games to grow their total.\nAcross skill challenges, speed tasks, memory tests, puzzles, and strategy-based rounds, teams can earn, risk, steal, swap, multiply, or protect tokens using special power cards and tactical decisions.\nAs the event progresses, the intensity increases with bidding battles, auctions, code-breaking, and surprise steal-or-defend twists that can dramatically shift rankings. The top-performing teams advance to a high-stakes final round where calculated risks and quick thinking determine the ultimate standings.\nThe team finishing with the highest token count is crowned the winner, with runner-up titles awarded to the next best performers.",
     "rules": [],
     "prizePool": "",
@@ -950,6 +950,11 @@ export const allEvents: EventDetail[] = [
       {
         "name": "Manoj",
         "phone": "6380693806"
+      },      
+      {
+        "name": "Abishek M",
+        "phone": "9080866666"  
+
       }
     ],
     "regLink": "https://docs.google.com/forms/d/e/1FAIpQLSe4Rcz4nyPbf7cSUibacJFzOdA6H1ISBA95IJFiZJH50n7IfA/viewform?usp=sharing&ouid=114259018141707001754"
@@ -1114,7 +1119,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:00 PM",
     "location": "CB504",
     "color": "#ff0000",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/freeze-frame.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/freeze-frame.webp",
     "description": "Freeze Frame is a cinematic guessing challenge that tests participants’ observation skills and love for movies. In this event, participants must identify films from a single frozen frame or visual clue. With dialogue and music removed, contestants rely purely on visual memory, scene recognition, and teamwork to decode the correct movie title. \nThe event will feature three exciting rounds, each increasing in difficulty and creativity. From identifying iconic frames to reconstructing scenes and solving cinematic puzzles, teams must think quickly and collaborate effectively. The team with the highest score across all rounds will be declared the winner.\n\nRound 1 – Frame Spot (Warm-up Round) Participants will be shown a single frozen frame from a movie for a few seconds. Teams must identify the correct movie title. \nRules: • Each frame will be displayed for 5 seconds. • Teams must write their answers on the answer sheet. • No shouting or discussing with other teams. • The answer must be the official movie title. Scoring: Correct answer – 10 points (No negative marks).\n\nRound 2 – Scene Builder Teams will receive 3–4 frames from the same movie but in random order. Participants must identify the movie and arrange the frames in the correct sequence. \nRules: • Frames will be displayed on the screen. • Teams must write the movie title and correct order. • Time limit: 30 seconds per question. Scoring: Correct movie title – 10 points; Correct sequence – 10 points (Total 20 points).\n\nRound 3 – Freeze & Act (Final Round) A team member will recreate or act out a frozen movie scene shown on the screen while teammates guess the movie. Rules: • Only one member acts while others guess. • No speaking allowed by the actor. • Time limit: 30 seconds. \nScoring: Correct answer within time – 20 points. If unanswered, other teams may steal for 10 points. \nRULES & GUIDLINES \n• Participants must not shout answers. \n• The title provided must be the official name of the film. • Judges’ decisions will be final and binding. \n• Any unfair practice will lead to disqualification.",
     "rules": [],
     "prizePool": "",
@@ -1123,8 +1128,8 @@ export const allEvents: EventDetail[] = [
     "teamSize": "2–3 members",
     "pocs": [
       {
-        "name": "Janani",
-        "phone": "9840988831"
+        "name": "Janani S",
+        "phone": "7305810686"
       }
     ],
     "regLink": "https://forms.gle/9K4ZuhZHu6bGuu4b6"
@@ -1214,7 +1219,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:30 PM",
     "location": "Biotech Seminar Hall",
     "color": "#ff0000",
-    "image": "https://cdn.svcehighways.in/highways-all-poster/45.jpg",
+    "image": "https://cdn.svcehighways.in/highways-all-poster/channel-surfing.webp",
     "description": "In Channel Surfing, our teams will transform into live TV channels—right before your eyes! From news anchors and sports commentators to soap operas and wild reality shows, you never know which channel you’ll land on next.\nBut wait—there’s a twist! At any moment, you could be asked to pause, rewind, or even replay a scene. That means you’ll need to stay sharp, think on your feet, and bring your best creativity, humor, and improvisation skills to the stage.\nChannel Surfing is all about energy, spontaneity, and keeping the audience hooked—so get ready to laugh, cheer, and binge-watch some unforgettable performances!",
     "rules": [
       "The maximum number of participants per team:5",
@@ -1272,7 +1277,17 @@ export const allEvents: EventDetail[] = [
     "color": "#ff0000",
     "image": "https://cdn.svcehighways.in/highways-all-poster/mr-and-ms-highways.jpg",
     "description": "A high-energy finale event designed to bring out the best in every participant through multiple exciting rounds. It kicks off with a performance of their choice, followed by judge-curated challenges to test versatility and stage presence. The top three contestants will be rewarded, with the winner earning the prestigious title of Mr. & Ms. Highways.",
-    "rules": [],
+    "rules": [
+      "Walk with confidence, style, and a strong stage presence.",
+      "Showcase your talent (e.g., singing, dancing, mimicry, etc.)",
+      "Time limit: 2 to 3 minutes.",
+      "Props are allowed only with prior intimation.",
+      "If performing to music, audio files must be submitted in advance.",
+      "Answer spontaneous questions with clarity, wit, and confidence.",
+      "Songs or tracks must be submitted in advance to studentcouncil@svce.ac.in",
+      "Prior registration is mandatory.",
+      "Participants must maintain proper decorum throughout the event.",
+    ],
     "prizePool": "Rs. 5,000/-",
     "regType": "Premium",
     "regFee": "Rs. 100/-",

@@ -79,7 +79,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Mohana Priya",
                 "role": "Lead",
                 "spirit": "",
-                "image": "assets/members/IMG-20260312-WA0005 - MOHANA PRIYA S CE.jpg"
+                "image": "assets/members/mohana-priya.jpg"
             },
             {
                 "name": "SRIRAM A",
@@ -116,6 +116,18 @@ export const teamData: TeamGroup[] = [
                 "role": "Member",
                 "spirit": "",
                 "image": "assets/members/Snapchat-1276341197_Original - HARSHITHA R ECE.webp"
+            },
+            {
+                "name": "Vandhanaa Devi",
+                "role": "Member",
+                "spirit": "",
+                "image": "assets/members/vandhana-devi.jpeg"
+            },
+            {
+                "name": "Gururaje M",
+                "role": "Member",
+                "spirit": "",
+                "image": "assets/members/gururaje.webp"
             },
             {
                 "name": "M S JOSHIKA",
