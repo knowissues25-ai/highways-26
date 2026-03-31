@@ -41,6 +41,14 @@ const sponsorsData = [
     url: "https://zebronics.com/",
     scale: "scale-[0.95]",
   },
+  {
+    name: "Lanson Toyota",
+    tier: "Events Sponsor",
+    logo: "https://cdn.svcehighways.in/assets/logos/lanson_toyota.jpeg",
+    desc: " ",
+    url: "https://lanson toyota.com/",
+    scale: "scale-[1]",
+  },
 ];
 
 const Sponsors = () => {
