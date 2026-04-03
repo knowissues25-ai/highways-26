@@ -184,7 +184,7 @@ export const allEvents: EventDetail[] = [
     "time": "1:30 PM",
     "location": "Library Seminar Hall",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/posters/crescendo.jpeg",
+    "image": "https://cdn.svcehighways.in/posters/crescendo.png",
     "description": "Stripped back and unplugged, this is where pure talent meets raw emotion. Whether you're a powerhouse of classical Indian ragas or a master of contemporary pop, this event is your canvas. No backup dancers, no distractions—just one voice, one microphone, and the chance to leave the audience breathless.",
     "rules": [
       "\tParticipants must present a valid college ID card for eligibility.",
@@ -222,7 +222,7 @@ export const allEvents: EventDetail[] = [
     "time": "10:00 AM",
     "location": "CB314",
     "color": "#f5e6c8",
-    "image": "https://cdn.svcehighways.in/posters/mystic-melodies.jpeg",
+    "image": "https://cdn.svcehighways.in/posters/mystic-melodies.png",
     "description": "Get ready for a fun-filled event that blends music, movies, and quick thinking! This event is designed to test your listening skills, memory, and ability to identify songs under pressure. From iconic BGMs to tricky mashups, bring your A-game and enjoy the ultimate entertainment challenge!\n\nRound 1: BGM Blast (Guess the Tune) \nParticipants will listen to short background music (BGM) clips from songs or movies. They must quickly identify the correct song name. Speed and accuracy will play a key role in scoring.\n\nRound 2: Movie Mania (Guess the Song from Scene) \nAn image (still) from a song scene in a movie will be displayed. Participants must identify the correct song based on the visual clue.\n\nRound 3: Mix & Match (Audio Mixing Challenge) \nA single audio clip containing a mix of three different songs will be played. Participants must correctly identify all three songs. Partial answers may earn partial points based on rules.",
     "rules": [
       "Participants must present a valid college ID card for eligibility.",
