@@ -1,6 +1,7 @@
 import { useEffect, lazy, Suspense } from 'react'
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom'
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/react"
 import './App.css'
 
 // Components
@@ -103,6 +104,7 @@ function App() {
 
         <PreFooter />
         <Footer />
+        <SpeedInsights />
         <Analytics />
       </div>
     </Router>
