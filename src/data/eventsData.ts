@@ -137,44 +137,6 @@ export const allEvents: EventDetail[] = [
     "regLink": "https://forms.gle/WWYitmLQ6jTJ6VQR7"
   },
   {
-    "id": 5,
-    "title": "Overdrive (Battle of Bands)",
-    "slug": "overdrive",
-    "category": "Music and Dance",
-    "day": 1,
-    "date": "April 09, 2026",
-    "time": "9:30 AM",
-    "location": "MPH",
-    "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/posters/OverDrive.jpeg",
-    "description": "The stage is set, the amps are cranked, and the spotlight is waiting. This is more than a performance; it's a high-voltage war of melodies and metaphors. We're looking for the tightest rhythm sections, the most blistering solos, and the kind of stage presence that turns a crowd into a movement. Bring your best originals or redefine the classics. Only one band will claim the throne.",
-    "rules": [
-      "Participants must present a valid college ID card for eligibility.",
-      "This is a single-round event; winners will be determined based on this performance.",
-      "Each band must consist of 4 to 8 members.",
-      "Total stage time is 15 minutes, including setup and sound check.",
-      "Bands must provide their own instruments, with the exception of the drum kit.",
-      "Performances may feature any genre, language, original compositions, or covers.",
-      "Obscene language and inappropriate stage conduct are strictly forbidden.",
-      "All decisions rendered by the judges and organizers are final and binding."
-    ],
-    "prizePool": "Rs. 20,000/-",
-    "regType": "Premium",
-    "regFee": "Rs. 800/-",
-    "teamSize": "4–8 MEMBERS",
-    "pocs": [
-      {
-        "name": "Parkavi V",
-        "phone": "+919445717013"
-      },
-      {
-        "name": "Dhanesh",
-        "phone": "+91 63694 54641"
-      }
-    ],
-    "regLink": "https://forms.gle/NWPuUMKw7RWEuPZLA"
-  },
-  {
     "id": 6,
     "title": "Crescendo (Solo Singing)",
     "slug": "crescendo",
@@ -255,10 +217,10 @@ export const allEvents: EventDetail[] = [
     "title": "Short Film Contest",
     "slug": "short-film-contest",
     "category": "Cinematic and Visual Arts",
-    "day": 3,
+    "day": 2,
     "date": "April 11, 2026",
     "time": "1:00 PM",
-    "location": "Library Seminar Hall",
+    "location": "Biotech Seminar Hall",
     "color": "#ff0000",
     "image": "https://cdn.svcehighways.in/posters/short-flim.jpeg",
     "description": "Lights, camera, action!\n Showcase your creativity and storytelling skills by creating a short film on an innovative theme. Let your ideas come alive on screen and impress the audience with your unique vision.",
@@ -305,47 +267,14 @@ export const allEvents: EventDetail[] = [
     "regLink": "https://docs.google.com/forms/d/1D8pX9R6HbiV7SPpamy6VZvvC5aTYkQBF_kOJXntMhAY/edit?usp=sharing_eil_se_dm&ts=69b56e43"
   },
   {
-    "id": 10,
-    "title": "Movie Screening",
-    "slug": "movie-screening",
-    "category": "Cinematic and Visual Arts",
-    "day": 1,
-    "date": "April 09, 10, 11, 2026",
-    "time": "9:00 AM",
-    "location": "Library Seminar Hall",
-    "color": "#e8729a",
-    "image": "https://cdn.svcehighways.in/posters/silverscreen.jpeg",
-    "description": "Lights, camera, enjoy! Experience the magic of cinema on the big screen as we bring together a collection of captivating short films. Sit back, relax, and immerse yourself in powerful storytelling, creative visuals, and inspiring narratives crafted by talented filmmakers.\nJoin us for an unforgettable screening session where stories come alive, emotions unfold, and every frame sparks imagination.\nNote: Entry ticket is applicable.",
-    "rules": [],
-    "prizePool": "",
-    "regType": "Standard",
-    "regFee": "Rs. 40/-",
-    "teamSize": "",
-    "pocs": [
-      {
-        "name": "Jayasuriya",
-        "phone": "8778994503"
-      },
-      {
-        "name": "Sanjay Joshua",
-        "phone": "7305764336"
-      },
-      {
-        "name": "Shamritha",
-        "phone": "98840 36973"
-      }
-    ],
-    "regLink": ""
-  },
-  {
     "id": 11,
     "title": "Meme Wars",
     "slug": "meme-wars",
     "category": "Cinematic and Visual Arts",
-    "day": 3,
+    "day": 2,
     "date": "April 11, 2026",
     "time": "1:00 PM",
-    "location": "Library Seminar Hall",
+    "location": "Biotech Seminar Hall",
     "color": "#ff0000",
     "image": "https://cdn.svcehighways.in/posters/meme-wars.jpeg",
     "description": "Cinema isn’t just watched—it’s felt, quoted, and now… memed. Step into the world where iconic scenes meet sharp wit and creativity. We bring you a Movie-Centric Meme Contest, where your love for films transforms into humor that hits harder than a plot twist. From timeless classics to trending blockbusters, every frame is your playground. Whether it’s a dramatic dialogue turned sarcastic, a villain made relatable, or a scene reimagined for everyday college chaos—this is your stage to make people laugh, think, and say, “That’s so true!”",
@@ -602,7 +531,7 @@ export const allEvents: EventDetail[] = [
     "day": 1,
     "date": "April 09, 2026",
     "time": "9:00 AM",
-    "location": "Biotech Hall",
+    "location": "Biotech Seminar Hall",
     "color": "#e8729a",
     "image": "https://cdn.svcehighways.in/posters/epl.jpeg",
     "description": "Welcome to the Entrepreneurship Pitching League (EPL) — where innovation and competition come together in an exciting business challenge! This event is designed to test your knowledge of the startup ecosystem, quick thinking, and pitching abilities.\nWhether you're an aspiring entrepreneur or a business enthusiast, EPL will challenge you to present bold, game-changing ideas with confidence and creativity.\nThe competition consists of three engaging rounds, each aimed at evaluating your entrepreneurial skills and persuasive power. From developing compelling business concepts to delivering effective pitches, each round will push you to think strategically and present your ideas with impact.",
@@ -1192,7 +1121,7 @@ export const allEvents: EventDetail[] = [
     "day": 3,
     "date": "April 11, 2026",
     "time": "10:30 AM",
-    "location": "Library 3rd Floor Hall",
+    "location": "Biotech Seminar Hall",
     "color": "#ff0000",
     "image": "https://cdn.svcehighways.in/posters/survival-fittest.jpeg",
     "description": "This event consists of two rounds designed to test the participants’ creativity, humour, and quick thinking.\n\nRound 1 – Shipwreck:\n Participants will imagine themselves on a sinking ship where only one life jacket remains. Each participant must convince the captain why they deserve the life jacket over the others. Participants will be judged based on humour, creativity, and persuasion.\n\nRound 2 – Block and Tackle:\n In this round, participants will be given a topic and must speak both for and against it at the judges’ command. Participants will be evaluated based on humour, spontaneity, and presence of mind.",
