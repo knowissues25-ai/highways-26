@@ -1205,7 +1205,7 @@ export const allEvents: EventDetail[] = [
     "location": "MPH",
     "color": "#ff0000",
     "image": "https://cdn.svcehighways.in/posters/mr-mrs-highways.jpeg",
-    "description": "A high-energy finale event designed to bring out the best in every participant through multiple exciting rounds. It kicks off with a performance of their choice, followed by judge-curated challenges to test versatility and stage presence. The top three contestants will be rewarded, with the winner earning the prestigious title of Mr. & Ms. Highways.",
+    "description": "A high-energy finale event designed to bring out the best in every participant through multiple exciting rounds. It kicks off with a performance of their choice, followed by judge-curated challenges to test versatility and stage presence. The top two contestants will be rewarded, with the winner earning the prestigious title of Mr. & Ms. Highways.",
     "rules": [
       "Walk with confidence, style, and a strong stage presence.",
       "Showcase your talent (e.g., singing, dancing, mimicry, etc.)",
