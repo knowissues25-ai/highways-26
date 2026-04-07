@@ -7,7 +7,8 @@ const Passes = () => {
         nonsvcepass: 'https://forms.gle/8d8GqA8sWnBMgZuQ7',
         svcegrp: 'https://forms.gle/RJjoH3FZN7iLpJpu7',
         nonsvcegrp: 'https://forms.gle/JE7QUP5VDComKwU89',
-        svcealumni: 'https://forms.gle/1o2A5ckyPYpVMZ7TA'
+        svcealumni: 'https://forms.gle/1o2A5ckyPYpVMZ7TA',
+        daypass: 'https://forms.gle/e8Z7QCQVUWWQMbtb6'
     } as const;
 
     const handlePassClick = (passKey: keyof typeof passLinks) => {
@@ -56,6 +57,47 @@ const Passes = () => {
                     margin: '0 auto'
                 }}>
 
+
+                    {/* DAY PASS */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 50 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true }}
+                        transition={{ delay: 0.5 }}
+                        style={{
+                            background: 'rgba(255, 255, 255, 0.01)',
+                            backdropFilter: 'blur(30px)',
+                            border: '1px solid rgba(239, 35, 60, 0.1)',
+                            borderRadius: '40px',
+                            padding: '3rem 2rem',
+                            textAlign: 'center',
+                            position: 'relative',
+                            overflow: 'hidden',
+                            boxShadow: '0 50px 100px rgba(0,0,0,0.4)',
+                            opacity: 1
+                        }}
+                    >
+                        <div style={{ opacity: 1 }}>
+                            <h3 style={{ fontSize: '2.5rem', fontWeight: 950, marginBottom: '0.8rem', color: '#fff', letterSpacing: '-1px', fontFamily: '"Orbitron", sans-serif' }}>
+                                Day Pass</h3>
+                            <div style={{ background: 'rgba(239, 35, 60, 0.1)', color: '#ef233c', padding: '5px 15px', borderRadius: '50px', fontWeight: 800, fontSize: '0.8rem', marginBottom: '1.2rem', textTransform: 'uppercase', display: 'inline-block' }}>
+                                SVCE and External entry
+                            </div>
+                            <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '2rem', lineHeight: 1.6, fontSize: '0.95rem' }}>
+                                <br />
+                                This pass can only be used for single day entry.
+                                <br /> <br />
+                            </p>
+                            <p style={{ marginBottom: '2rem', lineHeight: 1.6, fontSize: '1.5rem' }} className='text-white font-bold'>
+                                DAY 1 - <span className='text-[#ef233c]'>₹</span> 499 <br />
+                                DAY 2 - <span className='text-[#ef233c]'>₹</span> 699 <br />
+                                DAY 3 - <span className='text-[#ef233c]'>₹</span> 499 <br />
+                            </p>
+                            <button onClick={() => handlePassClick('daypass')} style={{ width: '100%', padding: '1.2rem', background: '#ef233c', border: 'none', color: 'white', borderRadius: '24px', fontWeight: 950, letterSpacing: '2px', cursor: 'pointer', textTransform: 'uppercase', fontSize: '0.9rem' }}>GET PASS NOW</button>
+                        </div>
+                    </motion.div>
+
+
                     {/* SVCE NORMAL PASS */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
@@ -79,8 +121,8 @@ const Passes = () => {
                             <h3 style={{ fontSize: '2.5rem', fontWeight: 950, marginBottom: '0.8rem', color: '#fff', letterSpacing: '-1px', fontFamily: '"Orbitron", sans-serif' }}>SVCE PASS</h3>
                             <div style={{ background: 'rgba(239, 35, 60, 0.1)', color: '#ef233c', padding: '5px 15px', borderRadius: '50px', fontWeight: 800, fontSize: '0.8rem', marginBottom: '1.2rem', textTransform: 'uppercase', display: 'inline-block' }}>SVCE Students Only</div>
                             <p style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '2rem', lineHeight: 1.6, fontSize: '0.95rem' }}>
-                                Access to all Pro Shows<br/>
-                                Access to all free and standard events
+                                <br />Access to all Pro Shows<br/>
+                                Access to all free and standard events <br />
                             </p>
                             <div style={{ fontSize: '4rem', fontWeight: 950, marginBottom: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}>
                                 <span style={{ fontSize: '1.8rem', color: '#ef233c' }}>₹</span>1099
@@ -192,7 +234,7 @@ const Passes = () => {
                         </div>
                     </motion.div>
 
-                                        {/* EVENT PASS - COMING SOON */}
+                    {/* EVENT PASS */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -263,7 +305,7 @@ const Passes = () => {
                         </div>
                     </motion.div>
 
-                                        {/* EARLY BIRD - EXPIRED */}
+                    {/* EARLY BIRD - EXPIRED */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
                         whileInView={{ opacity: 1, y: 0 }}

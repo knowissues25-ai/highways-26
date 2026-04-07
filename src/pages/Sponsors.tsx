@@ -40,15 +40,23 @@ const sponsorsData = [
     desc: "Premium audio experiences.",
     url: "https://zebronics.com/",
     scale: "scale-[0.95]",
-  },
+  },  
   {
-    name: "Lanson Toyota",
+    name: "Naturals",
     tier: "Events Sponsor",
-    logo: "https://cdn.svcehighways.in/assets/logos/lanson_toyota.jpeg",
-    desc: " ",
-    url: "https://lanson toyota.com/",
-    scale: "scale-[1]",
+    logo: "https://cdn.svcehighways.in/assets/logos/naturals.png",
+    desc: "",
+    url: "https://zebronics.com/",
+    scale: "scale-[0.95]",
   },
+  // {
+  //   name: "Lanson Toyota",
+  //   tier: "Events Sponsor",
+  //   logo: "https://cdn.svcehighways.in/assets/logos/lanson_toyota.jpeg",
+  //   desc: " ",
+  //   url: "https://lanson toyota.com/",
+  //   scale: "scale-[1]",
+  // },
 ];
 
 const Sponsors = () => {
@@ -119,10 +127,6 @@ const Sponsors = () => {
                 <h3 className="text-[1.2rem] md:text-[1.5rem] font-extrabold mb-2 md:mb-3">
                   {sponsor.name}
                 </h3>
-
-                <p className="text-white/40 text-[0.8rem] md:text-[0.9rem] leading-[1.5] md:leading-[1.6] capitalize">
-                  {sponsor.desc}
-                </p>
               </div>
             </motion.a>
           ))}
