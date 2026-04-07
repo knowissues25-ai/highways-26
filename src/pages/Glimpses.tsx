@@ -18,7 +18,7 @@ const Glimpses = () => {
     }, []);
 
     return (
-        <section id="glimpses" className="glimpses-section" style={{ paddingTop: '180px', paddingBottom: '150px', background: '#030303', position: 'relative', overflow: 'hidden' }}>
+        <section id="glimpses" className="glimpses-section" style={{ paddingTop: '180px', paddingBottom: '150px', position: 'relative', overflow: 'hidden' }}>
             <div className="section-header" style={{ textAlign: 'center', marginBottom: '100px', position: 'relative', zIndex: 10 }}>
                 <span style={{ color: '#ffb7c5', fontSize: '1rem', fontWeight: 900, letterSpacing: '12px', textTransform: 'uppercase', display: 'block', marginBottom: '1.5rem' }}>THE RECOLLECTIONS</span>
                 <h2 className="section-title center" style={{ fontSize: 'clamp(4rem, 10vw, 8rem)', fontWeight: 950, color: 'white', letterSpacing: '-5px', textTransform: 'uppercase', lineHeight: 0.8 }}>PAST <span style={{ color: '#ffb7c5' }}>GLIMPSES</span></h2>

@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 const sponsorsData = [
   {
     name: "Greenstar",
-    tier: "Special Sponsor",
+    tier: "Apparal Partner",
     logo: "https://cdn.svcehighways.in/assets/logos/green-star.png",
     desc: "Special Sponsor.",
     url: "https://applicationsolutions.com.au/environmental-sustainable-design/green-star/",
@@ -11,7 +11,7 @@ const sponsorsData = [
   },
   {
     name: "Gamistry",
-    tier: "Events Sponsor",
+    tier: "Event Partner",
     logo: "https://cdn.svcehighways.in/assets/logos/gamistry.png",
     desc: "Powering the events.",
     url: "https://www.gameistry.in/",
@@ -43,7 +43,7 @@ const sponsorsData = [
   },  
   {
     name: "Naturals",
-    tier: "Events Sponsor",
+    tier: "Grooming Partner",
     logo: "https://cdn.svcehighways.in/assets/logos/naturals.png",
     desc: "",
     url: "https://zebronics.com/",

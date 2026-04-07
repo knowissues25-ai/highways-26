@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Glimpses from './Glimpses';
+import Celebrities from './Celebrities';
 
 const HighwaysLogo = 'https://cdn.svcehighways.in/assets/logos/highways-logo.webp';
 
@@ -92,11 +93,8 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* WRAPPER FOR ABOUT AND CELEBRITIES */}
-            <div style={{
-                background: 'linear-gradient(to bottom, #050505, #0a0a0a)',
-                position: 'relative'
-            }}>
+            {/* ABOUT SVCE AND CELEBRITIES */}
+            <div>
                 {/* ABOUT SECTION - Redesigned (Elegant, Typography Focused) */}
                 <section id="about" className="about-section" style={{ padding: '150px 0', border: 'none', position: 'relative', overflow: 'hidden' }}>
                     <div className="container" style={{ maxWidth: '1000px' }}>
@@ -121,6 +119,21 @@ const Home = () => {
                                 Uniting students from diverse backgrounds and traditions, HIGHWAYS '26 promises an unforgettable experience with a spectacular lineup of culturally rich performances and vibrant non-technical showcases. It stands as a celebration of talent, unity and the true spirit of festivity.
                             </p>
                         </motion.div>
+                    </div>
+                </section>
+
+                <Celebrities />
+            </div>
+
+            {/* GLIMPSES SECTION */}
+            <Glimpses />
+
+            
+            {/* ABOUT SVCE */}
+            <div>
+                {/* ABOUT SECTION - Redesigned (Elegant, Typography Focused) */}
+                <section id="about" className="about-section" style={{ padding: '150px 0', border: 'none', position: 'relative', overflow: 'hidden' }}>
+                    <div className="container" style={{ maxWidth: '1000px' }}>
 
                         {/* SVCE Block */}
                         <motion.div
@@ -144,110 +157,7 @@ const Home = () => {
 
                     </div>
                 </section>
-
-                {/* CELEBRITY GUESS SECTION */}
-                <section id="celebrities" className="celebrity-section" style={{ padding: '100px 0 200px', border: 'none' }}>
-                    <div className="container">
-                        <div style={{ textAlign: 'center', marginBottom: '80px' }}>
-                            <span style={{ color: '#ff4d4d', fontSize: '1rem', fontWeight: 900, letterSpacing: '8px', display: 'block', marginBottom: '1rem' }}>LEGENDARY APPEARANCE</span>
-                            <h2 className="section-title center mx-auto" style={{ fontSize: 'clamp(2.5rem, 8vw, 5rem)', fontWeight: 950, lineHeight: 1.1 }}>CELEBRITY <span style={{ color: '#ff4d4d' }}>GUESTS</span></h2>
-                        </div>
-                        <div className="celebrity-grid w-full grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4 lg:gap-8">
-                            {[
-                                { id: 1, type: "MAIN GUEST", hint: "" },
-                                { id: 2, type: "SPECIAL GUEST", hint: "" },
-                                { id: 3, type: "PERFORMER", hint: "" }
-                            ].map(celeb => (
-                                <motion.div
-                                    key={celeb.id}
-                                    whileHover={{ y: -10 }}
-                                    className="celebrity-card-premium"
-                                    style={{
-                                        background: 'rgba(255,255,255,0.02)',
-                                        borderRadius: '30px',
-                                        padding: '40px 20px',
-                                        textAlign: 'center',
-                                        border: '1px solid rgba(255,77,77,0.1)',
-                                        position: 'relative',
-                                        backdropFilter: 'blur(10px)'
-                                    }}
-                                >
-                                    <div className="mystery-container" style={{ position: 'relative', width: '160px', height: '160px', margin: '0 auto 20px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                                        {celeb.id === 1 ? (
-                                            <img src="https://cdn.svcehighways.in/celebrity/eternals%20psd%20FINAL.jpg" alt="Celebrity 1" style={{ width: '100%', height: '100%', borderRadius: '50%', objectFit: 'cover' }} />
-                                        ) : (
-                                            <>
-                                                <motion.div
-                                                    animate={{ rotate: 360 }}
-                                                    transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
-                                                    style={{
-                                                        position: 'absolute',
-                                                        width: '140px',
-                                                        height: '140px',
-                                                        borderRadius: '35px',
-                                                        border: '2px dashed #ff4d4d',
-                                                        opacity: 0.3
-                                                    }}
-                                                />
-                                                <div style={{
-                                                    width: '110px',
-                                                    height: '110px',
-                                                    background: 'rgba(255,77,77,0.1)',
-                                                    borderRadius: '50%',
-                                                    display: 'flex',
-                                                    alignItems: 'center',
-                                                    justifyContent: 'center',
-                                                    fontSize: '3.5rem',
-                                                    fontWeight: 900,
-                                                    color: '#ff4d4d',
-                                                    textShadow: '0 0 20px rgba(255, 77, 77, 0.5)',
-                                                    zIndex: 1
-                                                }}>?</div>
-                                            </>
-                                        )}
-                                    </div>
-                                    <h3 style={{ fontSize: '1.6rem', fontWeight: 900, margin: '15px 0', color: 'white', minHeight: '2.5rem', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>{celeb.id === 1 ? 'THE ETERNALS' : 'REVEALING SOON'}</h3>
-                                    {celeb.id === 1 ? (
-                                        <a 
-                                            href="https://www.instagram.com/reel/DWO0fRKE9wg/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" 
-                                            target="_blank" 
-                                            rel="noopener noreferrer"
-                                            style={{
-                                                marginTop: '20px',
-                                                background: '#ff4d4d',
-                                                color: 'white',
-                                                padding: '10px 20px',
-                                                borderRadius: '100px',
-                                                fontSize: '0.8rem',
-                                                fontWeight: 900,
-                                                letterSpacing: '1px',
-                                                textDecoration: 'none',
-                                                display: 'inline-block'
-                                            }}
-                                        >
-                                            WATCH HERE
-                                        </a>
-                                    ) : (
-                                        <div style={{
-                                            marginTop: '20px',
-                                            background: '#ff4d4d',
-                                            color: 'white',
-                                            padding: '10px 20px',
-                                            borderRadius: '100px',
-                                            fontSize: '0.8rem',
-                                            fontWeight: 900,
-                                            letterSpacing: '1px'
-                                        }}>EXPECT THE UNEXPECTED</div>
-                                    )}
-                                </motion.div>
-                            ))}
-                        </div>
-                    </div>
-                </section>
             </div>
-
-            {/* GLIMPSES SECTION */}
-            <Glimpses />
         </div>
     );
 };
