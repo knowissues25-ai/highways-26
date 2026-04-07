@@ -198,28 +198,28 @@ export const teamData: TeamGroup[] = [
                 "imagePosition": "right top"
             },
             {
+                "name": "Arun D",
+                "role": "Member",
+                "spirit": "",
+                "image": "Arun.jpeg"
+            },
+            {
+                "name": "Amirthavarshini J",
+                "role": "Member",
+                "spirit": "",
+                "image": "AMIRTHAVARSHINI%20J.webp"
+            },
+            {
                 "name": "Abdul Rahman N",
                 "role": "Member",
                 "spirit": "",
                 "image": "assets/members/Abdul Rahman N-Member_Operations - ABDUL RAHMAN N AE.webp"
             },
             {
-                "name": "Amirthavarshini J",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/Amirthavarshini-member_operations - AMIRTHAVARSHINI J CSE.webp"
-            },
-            {
                 "name": "Anton jacob",
                 "role": "Member",
                 "spirit": "",
                 "image": "assets/members/IMG_7578 - 010 ANTON JACOB W ME.webp"
-            },
-            {
-                "name": "Arun D",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/Arun D - operation_wing_member - ARUN D ECE.webp"
             },
             {
                 "name": "KAVIYA M",
