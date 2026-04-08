@@ -88,12 +88,6 @@ export const teamData: TeamGroup[] = [
                 "image": "assets/members/SRIRAM A - SRIRAM A.jpg"
             },
             {
-                "name": "A Mahathi Kavya",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/IMG_8029 - A MAHATHI KAVYA ECE.webp"
-            },
-            {
                 "name": "ANBARASI P",
                 "role": "Member",
                 "spirit": "",
@@ -106,28 +100,10 @@ export const teamData: TeamGroup[] = [
                 "image": "assets/members/20240816_141115_11zon - BRINDHA A G Mech & Auto Engg.webp"
             },
             {
-                "name": "Harishmani E",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/harishmani-2127250501069_art&decor - HARISH MANI E CSE.webp"
-            },
-            {
-                "name": "Harshitha R",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/Snapchat-1276341197_Original - HARSHITHA R ECE.webp"
-            },
-            {
                 "name": "Vandhanaa Devi",
                 "role": "Member",
                 "spirit": "",
                 "image": "assets/members/vandhana-devi.jpeg"
-            },
-            {
-                "name": "Gururaje M",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/gururaje.webp"
             },
             {
                 "name": "M S JOSHIKA",
@@ -142,35 +118,65 @@ export const teamData: TeamGroup[] = [
                 "image": "assets/members/20260301_201913 - NITHYA SHIVA THIRUMALAIVARATHAN CSE.webp"
             },
             {
-                "name": "Priyadharshini",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/IMG-20260214-WA0072 - PRIYADHARSHINI R AI&DS.webp"
-            },
-            {
                 "name": "Tharun Kumar S",
                 "role": "Member",
                 "spirit": "",
                 "image": "assets/members/6809 - THARUN KUMAR S Biotech.webp"
             },
             {
-                "name": "VASUNDRA S",
+                "name": "Aravindar APS",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/IMG_20260301_192515 - VASUNDRA S AI&DS.webp"
+                "image": "new/ARAVINDAR.jpg"
             },
             {
-                "name": "VidhyaaVardhani Ramesh",
+                "name": "A Nikhil Kumar",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/IMG-20260301-WA0051 - VIDHYAA VARDHANI RAMESH AI&DS.webp"
+                "image": "new/NIKILKUMAR.jpg"
             },
             {
-                "name": "Visvajith S A",
+                "name": "Sudarsan",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/20251219_000434 - VISVAJITH S A ECE.webp"
-            }
+                "image": "new/SUDARSAN.jpg"
+            },
+            {
+                "name": "Mathumitha Kamaraj",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/MATHUMITHA.jpg"
+            },
+            {
+                "name": "Jishnu",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/JISHNU.jpeg"
+            },
+            {
+                "name": "SRI RAMANA KISHORE K",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/SRIRAMANA.jpg"
+            },
+            {
+                "name": "Dharshan R K",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/DHARSHAN.jpg"
+            },
+            {
+                "name": "Dheenadayalan VT",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/DHEENADAYALAN.webp"
+            },
+            {
+                "name": "S Mohamed Ibrahim",
+                "role": "Member",
+                "spirit": "",
+                "image": "new/MOHAMEDIBRAHIM.jpg"
+            },
         ]
     },
     {
@@ -712,12 +718,6 @@ export const teamData: TeamGroup[] = [
                 "image": "assets/members/IMG_20250904_182443 - VENKAT SRI CHARAN U ECE.jpg"
             },
             {
-                "name": "A.Bharath Rajh",
-                "role": "Member",
-                "spirit": "",
-                "image": "assets/members/Bharath Rajh_Member_Vigilance Wing - 011_A.BHARATH RAJH _MECH"
-            },
-            {
                 "name": "Adhitya R",
                 "role": "Member",
                 "spirit": "",
@@ -817,7 +817,7 @@ export const teamData: TeamGroup[] = [
                 "name": "Thirumurugan S",
                 "role": "Member",
                 "spirit": "",
-                "image": "assets/members/Photo from Thirumurugan - THIRUMURUGAN S CSE.S"
+                "image": "new/THIRUMURUGAN.jpeg"
             },
             {
                 "name": "Vineeth I",
