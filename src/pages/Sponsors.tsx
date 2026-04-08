@@ -10,7 +10,7 @@ const sponsorsData = [
     scale: "scale-[1.25]",
   },
   {
-    name: "Gamistry",
+    name: "Gameistry",
     tier: "Event Partner",
     logo: "https://cdn.svcehighways.in/assets/logos/gamistry.png",
     desc: "Powering the events.",
@@ -47,6 +47,22 @@ const sponsorsData = [
     logo: "https://cdn.svcehighways.in/assets/logos/naturals.png",
     desc: "",
     url: "https://zebronics.com/",
+    scale: "scale-[0.95]",
+  },
+  {
+    name: "Hoppio",
+    tier: "Travel Partner",
+    logo: "https://cdn.svcehighways.in/assets/logos/hoppio.png",
+    desc: "",
+    url: "https://hoppio.in/",
+    scale: "scale-[1]",
+  },  
+  {
+    name: "Veranda Race",
+    tier: "Knowledge Partner",
+    logo: "https://cdn.svcehighways.in/assets/logos/race.png",
+    desc: "",
+    url: "https://verandarace.com/",
     scale: "scale-[0.95]",
   },
   // {
