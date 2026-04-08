@@ -8,15 +8,23 @@ export default function Celebrities() {
       type: "DAY 1",
       image: "https://cdn.svcehighways.in/celebrity/eternals.webp",
       reveal: true,
-      watch: "",
+      watch: "https://www.instagram.com/reel/DWO0fRKE9wg/",
     },
+    // {
+    //   id: 1,
+    //   name: "Vikram Arul Vidyapathi",
+    //   type: "DAY 1",
+    //   image: "https://cdn.svcehighways.in/celebrity/",
+    //   reveal: true,
+    //   watch: "https://www.instagram.com/p/DWta63VE3yr/",
+    // },
     { 
       id: 2, 
       name: "SANHOSH NARAYANAN",
       type: "DAY 2", 
       image: "https://cdn.svcehighways.in/celebrity/sana.webp", 
       reveal: true, 
-      watch: "" 
+      watch: "https://www.instagram.com/reel/DWwW3XZky1t/" 
     },
     { 
       id: 3, 
@@ -24,10 +32,32 @@ export default function Celebrities() {
       type: "DAY 2", 
       image: "https://cdn.svcehighways.in/celebrity/vishnu_pri.webp", 
       reveal: true, 
-      watch: "" 
+      watch: "https://www.instagram.com/p/DWxgRxhk43P/" 
     },
-    { id: 4, type: "SPECIAL GUEST", image: "", reveal: false, watch: "" },
-    { id: 5, type: "PERFORMER", image: "", reveal: false, watch: "" },
+    { 
+      id: 3, 
+      name: "Thamizh Aadhavan",
+      type: "DAY 3", 
+      image: "https://cdn.svcehighways.in/celebrity/tamil.webp", 
+      reveal: true, 
+      watch: "https://www.instagram.com/p/DWyr7q6DXtH/" 
+    },
+    { 
+      id: 3, 
+      name: "இள. செம்வி",
+      type: "DAY 3", 
+      image: "https://cdn.svcehighways.in/celebrity/semvi.webp", 
+      reveal: true, 
+      watch: "https://www.instagram.com/p/DWyurw9E-vg/" 
+    },
+    { 
+      id: 3, 
+      name: "Rudh Prakash",
+      type: "DAY 3", 
+      image: "https://cdn.svcehighways.in/celebrity/rudh.jpg", 
+      reveal: true, 
+      watch: "https://www.instagram.com/p/DWyxiaVk-51/" 
+    },
   ];
 
   return (

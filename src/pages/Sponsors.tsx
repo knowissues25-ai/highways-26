@@ -65,6 +65,14 @@ const sponsorsData = [
     url: "https://verandarace.com/",
     scale: "scale-[0.95]",
   },
+  {
+    name: "Chandra Group",
+    tier: "Production Partner",
+    logo: "https://cdn.svcehighways.in/assets/logos/chandra.avif",
+    desc: "",
+    url: "https://chandragroup.co/",
+    scale: "scale-[0.95]",
+  },
   // {
   //   name: "Lanson Toyota",
   //   tier: "Events Sponsor",

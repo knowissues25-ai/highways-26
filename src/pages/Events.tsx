@@ -1,6 +1,5 @@
 import { useEffect, useMemo } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { motion, AnimatePresence, useScroll, useTransform, useSpring } from 'framer-motion';
 import { applyCursorTheme } from '../lib/cursorTheme';
 
 import { allEvents } from '../data/eventsData';
@@ -10,8 +9,8 @@ const categoriesList = ["All", "Music and Dance", "Quizzing, Debate and Literary
 const dayThemes = [
   {
     id: 1,
-    name: "Peace",
-    label: "THE SPARK",
+    name: "Day 1",
+    label: "",
     color: "#e8729a",
     kanji: "始",
     bgImage: "https://images.unsplash.com/photo-1522383225053-ed111181a951?q=80&w=2000&auto=format&fit=crop",
@@ -23,8 +22,8 @@ const dayThemes = [
   },
   {
     id: 2,
-    name: "Balance",
-    label: "THE VELOCITY",
+    name: "Day 2",
+    label: "",
     color: "#f5e6c8",
     kanji: "速",
     bgImage: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=2000&auto=format&fit=crop",
@@ -36,8 +35,8 @@ const dayThemes = [
   },
   {
     id: 3,
-    name: "Inversion",
-    label: "THE LEGEND",
+    name: "Day 3",
+    label: "",
     color: "#ff0000",
     kanji: "終",
     bgImage: "https://images.unsplash.com/photo-1516280440623-df9cb83e4776?q=80&w=2000&auto=format&fit=crop",
@@ -71,23 +70,6 @@ const Events = () => {
         return next;
     }, { replace: true });
   };
-
-  const { scrollY } = useScroll();
-  const yHero = useTransform(scrollY, [0, 500], [0, -120]);
-  const opacityHero = useTransform(scrollY, [0, 300], [1, 0]);
-
-
-  const springX = useSpring(0, { stiffness: 100, damping: 30 });
-  const springY = useSpring(0, { stiffness: 100, damping: 30 });
-
-  useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      springX.set(e.clientX - 400);
-      springY.set(e.clientY - 400);
-    };
-    window.addEventListener('mousemove', handleMouseMove);
-    return () => window.removeEventListener('mousemove', handleMouseMove);
-  }, [springX, springY]);
 
   const activeTheme = useMemo(() => {
     return dayThemes.find(t => t.id === filter.day) || dayThemes[0];
@@ -137,7 +119,7 @@ const Events = () => {
       backgroundSize: 'cover',
       backgroundPosition: 'center center',
       backgroundRepeat: 'no-repeat',
-      backgroundAttachment: 'fixed',
+      backgroundAttachment: 'scroll',
       position: 'relative',
       overflow: 'hidden',
       fontFamily: activeTheme.bodyFont,
@@ -153,193 +135,81 @@ const Events = () => {
         }}
       />
 
-      <motion.div style={{ position: 'fixed', width: '800px', height: '800px', background: `radial-gradient(circle, ${activeTheme.color}10 0%, transparent 70%)`, borderRadius: '50%', pointerEvents: 'none', zIndex: 0, filter: 'blur(60px)', x: springX, y: springY }} />
+      <div
+        aria-hidden="true"
+        style={{
+          position: 'absolute',
+          inset: '10% auto auto 50%',
+          width: 'min(70vw, 800px)',
+          height: 'min(70vw, 800px)',
+          background: `radial-gradient(circle, ${activeTheme.color}12 0%, transparent 70%)`,
+          borderRadius: '50%',
+          pointerEvents: 'none',
+          zIndex: 0,
+          filter: 'blur(60px)',
+          transform: 'translateX(-50%)'
+        }}
+      />
 
       <div className="container">
-        <motion.div className="events-header-premium" style={{ textAlign: 'center', marginBottom: '8rem', position: 'relative', y: yHero, opacity: opacityHero }}>
-          <AnimatePresence mode="wait">
-            <motion.div key={filter.day} initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -20 }} transition={{ duration: 0.8 }}>
-              <span style={{ color: activeTheme.color, fontSize: '0.9rem', fontWeight: 800, textTransform: 'uppercase', display: 'block', marginBottom: '1rem', letterSpacing: '8px' }}>{activeTheme.tagline}</span>
-              <h1 style={{
-                fontSize: 'clamp(5rem, 15vw, 10rem)',
-                fontWeight: 950,
-                textTransform: 'uppercase',
-                letterSpacing: filter.day === 1 ? '10px' : (filter.day === 3 ? '-8px' : '-4px'),
-                lineHeight: 0.8,
-                transition: 'all 1s ease',
-                fontFamily: activeTheme.displayFont
-              }}>
-                EVENT <span style={{ color: activeTheme.color, transition: 'all 1s ease' }}>SAGA</span>
-              </h1>
-            </motion.div>
-          </AnimatePresence>
+        <div className="events-header-premium" style={{ textAlign: 'center', marginBottom: '8rem', position: 'relative' }}>
+          <div>
+            <span style={{ color: activeTheme.color, fontSize: '0.9rem', fontWeight: 800, textTransform: 'uppercase', display: 'block', marginBottom: '1rem', letterSpacing: '8px' }}>{activeTheme.tagline}</span>
+            <h1 style={{
+              fontSize: 'clamp(4rem, 12vw, 8rem)',
+              fontWeight: 950,
+              textTransform: 'uppercase',
+              letterSpacing: filter.day === 1 ? '8px' : (filter.day === 3 ? '-4px' : '-2px'),
+              lineHeight: 0.85,
+              fontFamily: activeTheme.displayFont
+            }}>
+              EVENT <span style={{ color: activeTheme.color }}>SAGA</span>
+            </h1>
+          </div>
 
           <div style={{ position: 'absolute', width: '200%', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', zIndex: -1, opacity: 0.05, whiteSpace: 'nowrap', pointerEvents: 'none' }}>
-            <span style={{ fontSize: '20vw', fontWeight: 950, color: 'transparent', WebkitTextStroke: `2px ${activeTheme.color}`, opacity: 0.3, transition: 'all 1.5s ease' }}>{activeTheme.name}</span>
+            <span style={{ fontSize: '20vw', fontWeight: 950, color: 'transparent', WebkitTextStroke: `2px ${activeTheme.color}`, opacity: 0.3 }}>{activeTheme.name}</span>
           </div>
-        </motion.div>
+        </div>
 
         {/* Day Chapters (Restored) */}
         <div className="day-navigator" style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginBottom: '6rem', flexWrap: 'wrap', position: 'relative', zIndex: 10 }}>
           {dayThemes.map((day) => (
-            <motion.button key={day.id} onClick={() => setFilterState({ day: day.id })} whileHover={{ scale: 1.05, y: -5 }} whileTap={{ scale: 0.95 }}
+            <button key={day.id} onClick={() => setFilterState({ day: day.id })}
               style={{
                 background: filter.day === day.id ? day.color : 'rgba(255,255,255,0.02)',
                 color: filter.day === day.id ? day.buttonText : 'rgba(255,255,255,0.55)',
                 border: `1px solid ${filter.day === day.id ? day.color : 'rgba(255,255,255,0.05)'}`,
-                padding: '1.5rem 2.5rem', borderRadius: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: '220px', cursor: 'pointer', transition: 'all 0.5s cubic-bezier(0.19, 1, 0.22, 1)', backdropFilter: 'blur(20px)', boxShadow: filter.day === day.id ? `0 20px 40px ${day.color}44` : 'none', fontFamily: day.displayFont
+                padding: '1.5rem 2.5rem', borderRadius: '24px', display: 'flex', flexDirection: 'column', alignItems: 'center', minWidth: '220px', width: '220px', cursor: 'pointer', transition: 'background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease, color 0.25s ease', backdropFilter: 'blur(20px)', boxShadow: filter.day === day.id ? `0 20px 40px ${day.color}44` : 'none', fontFamily: day.displayFont
               }}>
               <span style={{ fontSize: '0.65rem', fontWeight: 900, letterSpacing: '3px', opacity: 0.6, marginBottom: '0.4rem' }}>{day.label}</span>
               <span style={{ fontSize: '1.4rem', fontWeight: 950 }}>{day.name}</span>
-            </motion.button>
+            </button>
           ))}
         </div>
 
         <div style={{ position: 'relative' }}>
-          {isLocked && (
-            <div style={{
-              position: 'relative',
-              zIndex: 500,
-              display: 'flex',
-              flexDirection: 'column',
-              alignItems: 'center',
-              justifyContent: 'center',
-              background: 'rgba(0,0,0,0.4)',
-              backdropFilter: 'blur(60px) saturate(1.5)',
-              textAlign: 'center',
-              padding: '10rem 2.5rem',
-              borderRadius: '80px',
-              minHeight: '800px',
-              border: '1px solid rgba(255,255,255,0.03)',
-              overflow: 'hidden',
-              boxShadow: `0 0 100px ${activeTheme.color}11`
-            }}>
-              {/* Dramatic Symbolic Lock - No Text UI */}
-              <div style={{ position: 'relative', width: '300px', height: '300px', perspective: '1000px' }}>
-                {/* Outer Rotating Rings */}
-                <motion.div animate={{ rotate: 360 }} transition={{ duration: 15, repeat: Infinity, ease: "linear" }} style={{ position: 'absolute', inset: 0, border: `2px solid ${activeTheme.color}22`, borderRadius: '50%', borderTopColor: activeTheme.color, filter: 'blur(1px)' }} />
-                <motion.div animate={{ rotate: -360 }} transition={{ duration: 25, repeat: Infinity, ease: "linear" }} style={{ position: 'absolute', inset: '20px', border: `1px dashed ${activeTheme.color}33`, borderRadius: '50%', filter: 'blur(2px)' }} />
-
-                {/* Inner Orbitals */}
-                {[...Array(3)].map((_, i) => (
-                  <motion.div
-                    key={i}
-                    animate={{
-                      rotateX: [0, 360],
-                      rotateY: [0, 360],
-                      scale: [1, 1.2, 1]
-                    }}
-                    transition={{
-                      duration: 10 + i * 5,
-                      repeat: Infinity,
-                      ease: "easeInOut"
-                    }}
-                    style={{
-                      position: 'absolute',
-                      inset: '60px',
-                      border: `1px solid ${activeTheme.color}44`,
-                      borderRadius: '50%',
-                      opacity: 0.3
-                    }}
-                  />
-                ))}
-
-                {/* The Core Singularity */}
-                <div style={{ position: 'absolute', inset: '100px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                  <motion.div
-                    animate={{
-                      scale: [1, 1.4, 1],
-                      opacity: [0.4, 0.8, 0.4],
-                      filter: [`blur(10px) drop-shadow(0 0 20px ${activeTheme.color})`, `blur(15px) drop-shadow(0 0 50px ${activeTheme.color})`, `blur(10px) drop-shadow(0 0 20px ${activeTheme.color})`]
-                    }}
-                    transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                    style={{
-                      width: '60px',
-                      height: '60px',
-                      background: activeTheme.color,
-                      borderRadius: '50%',
-                      zIndex: 2
-                    }}
-                  />
-                  {/* Glitch Overlay Over Core */}
-                  <motion.div
-                    animate={{
-                      opacity: [0, 0.2, 0, 0.4, 0],
-                      x: [-5, 5, -5, 10, -10, 0],
-                      scaleX: [1, 2, 0.5, 1.5, 1]
-                    }}
-                    transition={{ duration: 0.3, repeat: Infinity, repeatDelay: 2 }}
-                    style={{ position: 'absolute', width: '150px', height: '2px', background: 'white', filter: 'blur(10px)', zIndex: 3 }}
-                  />
-                </div>
-              </div>
-
-              {/* Coming Soon Text Element */}
-              <div style={{ marginTop: '8rem', display: 'flex', alignItems: 'center', justifyContent: 'center', zIndex: 10 }}>
-                <motion.div
-                  animate={{ opacity: [0.3, 1, 0.3], scale: [1, 1.05, 1] }}
-                  transition={{ duration: 3, repeat: Infinity }}
-                  style={{
-                    color: activeTheme.color,
-                    fontSize: 'clamp(1.5rem, 5vw, 2.5rem)',
-                    fontWeight: 950,
-                    letterSpacing: '15px',
-                    textTransform: 'uppercase',
-                    textShadow: `0 0 30px ${activeTheme.color}88`
-                  }}
-                >
-                  COMING SOON
-                </motion.div>
-              </div>
-
-              {/* Minimal Symbolic Footer */}
-              <div style={{ marginTop: '4rem', display: 'flex', gap: '3rem', opacity: 0.3 }}>
-                <i className="fas fa-barcode" style={{ fontSize: '2rem', color: activeTheme.color }}></i>
-                <div style={{ height: '40px', width: '1px', background: 'rgba(255,255,255,0.2)' }}></div>
-                <i className="fas fa-microchip" style={{ fontSize: '2rem', color: activeTheme.color }}></i>
-                <div style={{ height: '40px', width: '1px', background: 'rgba(255,255,255,0.2)' }}></div>
-                <i className="fas fa-fingerprint" style={{ fontSize: '2rem', color: activeTheme.color }}></i>
-              </div>
-
-              {/* Scanning Glitch Effect */}
-              <motion.div
-                animate={{ top: ['-10%', '110%'] }}
-                transition={{ duration: 5, repeat: Infinity, ease: "linear" }}
-                style={{
-                  position: 'absolute',
-                  left: 0,
-                  right: 0,
-                  height: '300px',
-                  background: `linear-gradient(transparent, ${activeTheme.color}05, transparent)`,
-                  pointerEvents: 'none',
-                  zIndex: 1
-                }}
-              />
-            </div>
-          )}
-
           <div style={{ opacity: isLocked ? 0 : 1, pointerEvents: isLocked ? 'none' : 'auto', visibility: isLocked ? 'hidden' : 'visible', height: isLocked ? '600px' : 'auto', overflow: 'hidden' }}>
             
             {/* Category Carousel (Restored) */}
             <div className="classification-carousel" style={{ marginBottom: '8rem', overflowX: 'auto', paddingBottom: '1.5rem', scrollbarWidth: 'none' }}>
               <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', minWidth: 'max-content', padding: '0 2rem' }}>
                 {categoriesList.map(c => (
-                  <motion.button key={c} whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }} onClick={() => setFilterState({ category: c })}
+                  <button key={c} onClick={() => setFilterState({ category: c })}
                     style={{
                       background: filter.category === c ? `${activeTheme.color}` : 'rgba(255,255,255,0.03)',
                       color: filter.category === c ? activeTheme.buttonText : 'rgba(255,255,255,0.72)',
                       border: `1px solid ${filter.category === c ? activeTheme.color : 'rgba(255,255,255,0.1)'}`,
                       padding: '0.8rem 2.5rem', borderRadius: '100px', fontSize: '0.8rem', fontWeight: 900, cursor: 'pointer', transition: 'all 0.4s ease', letterSpacing: '1px', textTransform: 'uppercase', fontFamily: activeTheme.displayFont
-                    }}>{c}</motion.button>
+                    }}>{c}</button>
                 ))}
               </div>
             </div>
 
 
-            <motion.div layout className="events-grid-system" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2.5rem' }}>
-              <AnimatePresence mode="popLayout">
-                {filteredEvents.map((event, index) => (
-                  <motion.div layout key={event.id} initial={{ opacity: 0, y: 40, scale: 0.95 }} whileInView={{ opacity: 1, y: 0, scale: 1 }} viewport={{ once: false, margin: "-20px" }} transition={{ duration: 0.6, delay: (index % 4) * 0.1 }} className="event-premium-card"
+            <div className="events-grid-system" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '2.5rem' }}>
+                {filteredEvents.map((event) => (
+                  <div key={event.id} className="event-premium-card"
                     style={{ background: 'rgba(255,255,255,0.02)', borderRadius: '30px', overflow: 'hidden', position: 'relative', display: 'flex', flexDirection: 'column', border: `1px solid ${activeTheme.color}2f`, backdropFilter: 'blur(20px)' }}>
                     
                     {/* Poster Container */}
@@ -363,8 +233,7 @@ const Events = () => {
                       borderTop: `1px solid ${activeTheme.color}11`
                     }}>
                       <Link to={`/events/${event.slug}`} style={{ textDecoration: 'none', width: '100%', height: '100%' }}>
-                        <motion.button 
-                          whileHover={{ backgroundColor: `${activeTheme.color}22` }}
+                        <button 
                           style={{ 
                             width: '100%', 
                             height: '100%', 
@@ -383,13 +252,12 @@ const Events = () => {
                             transition: 'all 0.3s ease'
                           }}>
                           VIEW DETAILS
-                        </motion.button>
+                        </button>
                       </Link>
                     </div>
-                  </motion.div>
+                  </div>
                 ))}
-              </AnimatePresence>
-            </motion.div>
+            </div>
           </div>
         </div>
       </div>
@@ -434,13 +302,15 @@ const Events = () => {
                     .events-header-premium span { font-size: 0.6rem !important; letter-spacing: 4px !important; }
                     
                     .day-navigator { 
-                        justify-content: flex-start !important; 
-                        overflow-x: auto !important; 
-                        padding: 0 1.5rem 1rem !important; 
-                        gap: 1rem !important;
+                        flex-wrap: nowrap !important;
+                        justify-content: center !important; 
+                        align-items: stretch !important;
+                        padding: 0 0.75rem !important; 
+                        gap: 0.65rem !important;
+                        margin-bottom: 3rem !important;
                     }
-                    .day-navigator button { min-width: 160px !important; padding: 1rem !important; border-radius: 12px !important; }
-                    .day-navigator button span:last-child { font-size: 1.1rem !important; }
+                    .day-navigator button { width: calc((100% - 1.3rem) / 3) !important; min-width: 0 !important; padding: 0.85rem 0.5rem !important; border-radius: 12px !important; }
+                    .day-navigator button span:last-child { font-size: 0.95rem !important; }
                     
                     .classification-carousel { margin-bottom: 3rem !important; }
                     .classification-carousel > div { justify-content: flex-start !important; padding: 0 1rem !important; gap: 0.6rem !important; }
