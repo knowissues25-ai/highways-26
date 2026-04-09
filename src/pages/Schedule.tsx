@@ -6,7 +6,7 @@ const LINE_POSITION = '1.1rem';
 const SCHEDULE_DATE = {
   year: 2026,
   monthIndex: 3,
-  day: 9,
+  day: 10,
 };
 
 const parseTime = (time: string) => {
@@ -48,12 +48,12 @@ const schedule = [
   {
     time: '5:00 PM',
     title: 'Proshow Begins',
-    note: 'Main-stage entertainment takes over with the Day 1 lineup.',
+    note: 'Main-stage entertainment takes over with the Day 2 lineup.',
   },
   {
     time: '8:30 PM',
-    title: 'Conclusion of Day 1',
-    note: 'Lights dim on the first chapter of Highways.',
+    title: 'Conclusion of Day 2',
+    note: 'Lights dim on the second chapter of Highways.',
   },
   {
     time: '9:00 PM',
@@ -62,12 +62,12 @@ const schedule = [
   },
 ];
 
-const proshow = [
-  'Classical Performance - Dance Club',
-  'Stand-up Comedy - Vikkals Vikram',
-  'Music Club Performance',
-  'Eternals Band Performance',
-];
+// const proshow = [
+//   'Classical Performance - Dance Club',
+//   'Stand-up Comedy - Vikkals Vikram',
+//   'Music Club Performance',
+//   'Eternals Band Performance',
+// ];
 
 const Schedule = () => {
   const [progress, setProgress] = useState(0);
@@ -193,7 +193,7 @@ const Schedule = () => {
               marginBottom: '1rem',
             }}
           >
-            DAY 1 TIMELINE
+            DAY 2 TIMELINE
           </span>
 
           <h1
@@ -407,7 +407,7 @@ const Schedule = () => {
               gap: '1.5rem',
             }}
           >
-            <div
+            {/* <div
               className="schedule-panel"
               style={{
                 background: 'rgba(255,255,255,0.035)',
@@ -469,7 +469,7 @@ const Schedule = () => {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> */}
 
             <div
               className="schedule-panel"
