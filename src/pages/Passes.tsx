@@ -45,7 +45,6 @@ const Passes = () => {
                     margin: '0 auto'
                 }}>
 
-
                     {/* DAY PASS */}
                     <motion.div
                         initial={{ opacity: 0, y: 50 }}
