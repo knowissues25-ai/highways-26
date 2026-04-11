@@ -48,12 +48,12 @@ const schedule = [
   {
     time: '5:00 PM',
     title: 'Proshow Begins',
-    note: 'Main-stage entertainment takes over with the Day 2 lineup.',
+    note: 'Main-stage entertainment takes over with the Day 3 lineup.',
   },
   {
     time: '8:30 PM',
-    title: 'Conclusion of Day 2',
-    note: 'Lights dim on the second chapter of Highways.',
+    title: 'Conclusion of Day 3',
+    note: 'Lights dim on the final chapter of Highways.',
   },
   {
     time: '9:00 PM',
@@ -193,7 +193,7 @@ const Schedule = () => {
               marginBottom: '1rem',
             }}
           >
-            DAY 2 TIMELINE
+            Day 3 TIMELINE
           </span>
 
           <h1
